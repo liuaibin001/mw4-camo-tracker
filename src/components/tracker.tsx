@@ -580,45 +580,30 @@ export function Tracker() {
                         </div>
                       </div>
                       <div className="camo-strip">
-                        <div>
-                          {w.challenges
-                            .filter((c) => c.role === 'military')
-                            .map((c) => (
-                              <CamoTile
-                                key={c.id}
-                                challenge={c}
-                                index={w.challenges.indexOf(c)}
-                                weapon={w}
-                                mode={mode}
-                              />
-                            ))}
-                        </div>
-                        <div>
-                          {w.challenges
-                            .filter((c) => c.role === 'special')
-                            .map((c) => (
-                              <CamoTile
-                                key={c.id}
-                                challenge={c}
-                                index={w.challenges.indexOf(c)}
-                                weapon={w}
-                                mode={mode}
-                              />
-                            ))}
-                        </div>
-                        <div>
-                          {w.challenges
-                            .filter((c) => c.role === 'completionist')
-                            .map((c) => (
-                              <CamoTile
-                                key={c.id}
-                                challenge={c}
-                                index={w.challenges.indexOf(c)}
-                                weapon={w}
-                                mode={mode}
-                              />
-                            ))}
-                        </div>
+                        {[
+                          ['military', 'Military', 8],
+                          ['special', 'Special', 3],
+                          ['completionist', 'Completionist', 3],
+                        ].map(([role, label, count]) => (
+                          <div className="camo-group" data-role={role} key={role}>
+                            <span className="camo-group-label">
+                              {label} <small>{count}</small>
+                            </span>
+                            <div className="camo-group-items">
+                              {w.challenges
+                                .filter((c) => c.role === role)
+                                .map((c) => (
+                                  <CamoTile
+                                    key={c.id}
+                                    challenge={c}
+                                    index={w.challenges.indexOf(c)}
+                                    weapon={w}
+                                    mode={mode}
+                                  />
+                                ))}
+                            </div>
+                          </div>
+                        ))}
                       </div>
                       <div className="row-end">
                         <span className="weapon-done" data-full={count === 14}>

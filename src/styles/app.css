@@ -38,7 +38,10 @@
   --green: #4d6642;
   --green-soft: #edf2e9;
   --gold: #b69b52;
-  --tile: 24px;
+  --text-caption: 12px;
+  --text-small: 14px;
+  --text-body: 16px;
+  --tile: 42px;
   color-scheme: light;
   font-synthesis: none;
 }
@@ -54,7 +57,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans);
-  font-size: 15px;
+  font-size: var(--text-body);
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
 }
@@ -115,7 +118,7 @@ input[type='checkbox'] {
   accent-color: var(--green);
 }
 .small {
-  font-size: 13px;
+  font-size: var(--text-small);
   line-height: 1.65;
 }
 .muted {
@@ -125,7 +128,7 @@ input[type='checkbox'] {
   width: 100%;
 }
 .eyebrow {
-  font-size: 11px;
+  font-size: var(--text-caption);
   font-weight: 600;
   letter-spacing: 0.13em;
   color: #6e7964;
@@ -191,7 +194,7 @@ input[type='checkbox'] {
 }
 .brand-edition {
   font-weight: 600;
-  font-size: 9px;
+  font-size: var(--text-caption);
   letter-spacing: 0.06em;
   background: #e9ede5;
   color: #5c6b50;
@@ -206,7 +209,7 @@ input[type='checkbox'] {
   gap: 29px;
   height: 100%;
   color: #767b72;
-  font-size: 13px;
+  font-size: var(--text-body);
 }
 .desktop-nav a {
   height: 100%;
@@ -238,12 +241,12 @@ input[type='checkbox'] {
   align-items: center;
   gap: 6px;
   color: #747c6f;
-  font-size: 11px;
+  font-size: var(--text-small);
   white-space: nowrap;
 }
 .account-trigger {
   height: 33px !important;
-  font-size: 12px !important;
+  font-size: var(--text-body) !important;
   background: #fff !important;
   border-color: var(--border) !important;
   max-width: 165px;
@@ -268,7 +271,7 @@ input[type='checkbox'] {
   align-items: center;
 }
 .breadcrumbs {
-  font-size: 11px;
+  font-size: var(--text-small);
   color: #6e7964;
   display: flex;
   align-items: center;
@@ -283,7 +286,7 @@ input[type='checkbox'] {
   color: #555e50;
 }
 .season-stamp {
-  font-size: 9px;
+  font-size: var(--text-caption);
   letter-spacing: 0.08em;
   font-weight: 550;
   color: #6e7964;
@@ -313,7 +316,7 @@ input[type='checkbox'] {
   color: #6e7964;
 }
 .tracker-intro p {
-  font-size: 14px;
+  font-size: var(--text-body);
   color: #6e7964;
   line-height: 1.85;
   margin-top: 13px;
@@ -335,7 +338,7 @@ input[type='checkbox'] {
 }
 .intro-count > span {
   display: block;
-  font-size: 9px;
+  font-size: var(--text-caption);
   letter-spacing: 0.1em;
   font-weight: 500;
   color: #6e7964;
@@ -391,7 +394,7 @@ input[type='checkbox'] {
 }
 .step-number {
   color: #6e7964;
-  font-size: 11px;
+  font-size: var(--text-small);
   font-variant-numeric: tabular-nums;
 }
 .mastery-emblem {
@@ -435,7 +438,7 @@ input[type='checkbox'] {
   );
 }
 .summary-title {
-  font-size: 13px;
+  font-size: var(--text-body);
   font-weight: 550;
 }
 .summary-value {
@@ -450,14 +453,14 @@ input[type='checkbox'] {
   align-items: baseline;
 }
 .summary-value > span {
-  font-size: 13px;
+  font-size: var(--text-body);
   color: #6e7964;
   letter-spacing: -0.02em;
   font-weight: 400;
 }
 .summary-value .auto-label {
   margin-left: auto;
-  font-size: 8px;
+  font-size: var(--text-caption);
   background: #f1f3ed;
   padding: 2px 4px;
   border-radius: 3px;
@@ -478,7 +481,7 @@ input[type='checkbox'] {
   transition: width 0.3s;
 }
 .summary-card > p {
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
   margin-top: 9px;
 }
@@ -507,7 +510,7 @@ input[type='checkbox'] {
   font-weight: 570;
 }
 .count-badge {
-  font-size: 10px;
+  font-size: var(--text-small);
   display: inline-flex;
   border: 1px solid var(--border);
   border-radius: 4px;
@@ -518,7 +521,7 @@ input[type='checkbox'] {
   line-height: 1.7;
 }
 .panel-heading [data-slot='button'] {
-  font-size: 11px;
+  font-size: var(--text-small);
   gap: 6px;
   background: white;
   height: 30px;
@@ -536,7 +539,7 @@ input[type='checkbox'] {
   border-radius: 7px;
 }
 .mode-status [data-slot='tabs-trigger'] {
-  font-size: 12px;
+  font-size: var(--text-body);
   padding: 3px 13px;
   height: 26px;
   color: #6e7964;
@@ -553,7 +556,7 @@ input[type='checkbox'] {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
 }
 .save-error {
@@ -581,7 +584,7 @@ input[type='checkbox'] {
   outline: none;
   min-width: 0;
   width: 100%;
-  font-size: 12px;
+  font-size: var(--text-body);
   min-height: 36px;
   color: #333c2d;
 }
@@ -606,7 +609,7 @@ input[type='checkbox'] {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 11px;
+  font-size: var(--text-small);
   padding: 0 8px 0 12px;
   border: 1px solid var(--border);
   border-radius: 7px;
@@ -620,7 +623,7 @@ input[type='checkbox'] {
   background: transparent;
   color: #526046;
   outline: none;
-  font-size: 11px;
+  font-size: var(--text-small);
   max-width: 122px;
 }
 .class-filters {
@@ -634,7 +637,7 @@ input[type='checkbox'] {
   display: flex;
   gap: 6px;
   align-items: center;
-  font-size: 10px;
+  font-size: var(--text-small);
   border-radius: 5px;
   padding: 5px 7px;
   border: 1px solid transparent;
@@ -643,7 +646,7 @@ input[type='checkbox'] {
   white-space: nowrap;
 }
 .class-filters button span {
-  font-size: 9px;
+  font-size: var(--text-caption);
   color: #6e7964;
 }
 .class-filters button:hover {
@@ -661,7 +664,7 @@ input[type='checkbox'] {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
   padding: 13px 0;
 }
@@ -702,7 +705,7 @@ input[type='checkbox'] {
   border: 1px solid var(--border);
   border-radius: 7px 7px 0 0;
   color: #6e7964;
-  font-size: 8px;
+  font-size: var(--text-caption);
   letter-spacing: 0.06em;
 }
 .camo-table-heading > div {
@@ -721,7 +724,7 @@ input[type='checkbox'] {
   padding-right: 10px;
 }
 .camo-table-heading i {
-  font-size: 7px;
+  font-size: var(--text-caption);
   font-style: normal;
   margin-left: 2px;
   color: #6e7964;
@@ -778,7 +781,7 @@ input[type='checkbox'] {
   min-width: 0;
 }
 .weapon-name {
-  font-size: 12px;
+  font-size: var(--text-body);
   font-weight: 560;
   white-space: nowrap;
   overflow: hidden;
@@ -790,7 +793,7 @@ input[type='checkbox'] {
   color: #5b7346;
 }
 .weapon-class {
-  font-size: 9px;
+  font-size: var(--text-caption);
   color: #6e7964;
   margin-top: 2px;
 }
@@ -855,7 +858,7 @@ input[type='checkbox'] {
   color: #7c8574;
 }
 .tile-index {
-  font-size: 8px;
+  font-size: var(--text-caption);
   opacity: 0.48;
   font-variant-numeric: tabular-nums;
   font-weight: 500;
@@ -866,7 +869,7 @@ input[type='checkbox'] {
   border-radius: 7px;
 }
 .camo-tile-large .tile-index {
-  font-size: 11px;
+  font-size: var(--text-small);
 }
 .row-end {
   display: flex;
@@ -876,14 +879,14 @@ input[type='checkbox'] {
   padding-left: 9px;
 }
 .weapon-done {
-  font-size: 11px;
+  font-size: var(--text-small);
   color: #6e7964;
   font-variant-numeric: tabular-nums;
   font-weight: 500;
   white-space: nowrap;
 }
 .weapon-done small {
-  font-size: 8px;
+  font-size: var(--text-caption);
   color: #6e7964;
   font-weight: 400;
 }
@@ -913,7 +916,7 @@ input[type='checkbox'] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 9px;
+  font-size: var(--text-caption);
   letter-spacing: 0.06em;
   color: #6e7964;
   margin-bottom: 20px;
@@ -922,7 +925,7 @@ input[type='checkbox'] {
   display: flex;
   gap: 5px;
   align-items: center;
-  font-size: 10px;
+  font-size: var(--text-small);
   letter-spacing: 0;
   color: #5e754b;
 }
@@ -938,11 +941,11 @@ input[type='checkbox'] {
   margin-bottom: 10px;
 }
 .group-label h3 {
-  font-size: 13px;
+  font-size: var(--text-body);
   font-weight: 600;
 }
 .group-label > span {
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
 }
 .military-grid {
@@ -969,11 +972,11 @@ input[type='checkbox'] {
   flex-wrap: wrap;
 }
 .challenge-name > strong {
-  font-size: 11px;
+  font-size: var(--text-small);
   font-weight: 550;
 }
 .challenge-detail p {
-  font-size: 11px;
+  font-size: var(--text-small);
   color: #6e7964;
   line-height: 1.7;
   margin-top: 4px;
@@ -987,7 +990,7 @@ input[type='checkbox'] {
   gap: 6px;
 }
 .prerequisite {
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
   display: flex;
   gap: 5px;
@@ -1008,12 +1011,12 @@ input[type='checkbox'] {
   border: 1px solid #eee0bf;
   border-radius: 4px;
   color: #6e7964;
-  font-size: 9px;
+  font-size: var(--text-caption);
   line-height: 1.4;
 }
 .weapon-expanded > .small {
   margin-top: 15px;
-  font-size: 10px;
+  font-size: var(--text-small);
 }
 .table-footnote {
   display: flex;
@@ -1021,7 +1024,7 @@ input[type='checkbox'] {
   justify-content: space-between;
   gap: 8px;
   padding: 11px 0;
-  font-size: 9px;
+  font-size: var(--text-caption);
   color: #6e7964;
 }
 .table-footnote > span,
@@ -1051,7 +1054,7 @@ input[type='checkbox'] {
   color: #536746;
 }
 .empty-state p {
-  font-size: 13px;
+  font-size: var(--text-body);
 }
 .mode-mastery-panel {
   margin-top: 35px;
@@ -1065,11 +1068,11 @@ input[type='checkbox'] {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 11px;
+  font-size: var(--text-small);
   color: #6e7964;
 }
 .section-copy {
-  font-size: 11px;
+  font-size: var(--text-small);
   color: #6e7964;
   margin: 9px 0 17px;
   line-height: 1.75;
@@ -1097,15 +1100,15 @@ input[type='checkbox'] {
 }
 .mastery-card-top > span {
   color: #6e7964;
-  font-size: 10px;
+  font-size: var(--text-small);
 }
 .mode-mastery-card h3 {
-  font-size: 13px;
+  font-size: var(--text-body);
   font-weight: 550;
   letter-spacing: -0.025em;
 }
 .mode-mastery-card > p {
-  font-size: 11px;
+  font-size: var(--text-small);
   line-height: 1.75;
   color: #6e7964;
   margin: 6px 0 13px;
@@ -1121,7 +1124,7 @@ input[type='checkbox'] {
   gap: 5px;
   align-items: flex-start;
   color: #6e7964;
-  font-size: 9px;
+  font-size: var(--text-caption);
   line-height: 1.65;
   width: 100%;
 }
@@ -1146,7 +1149,7 @@ input[type='checkbox'] {
   align-items: center;
   gap: 7px;
   color: #6e7964;
-  font-size: 9px;
+  font-size: var(--text-caption);
   font-weight: 550;
   letter-spacing: 0.07em;
   margin-bottom: 24px;
@@ -1161,7 +1164,7 @@ input[type='checkbox'] {
 }
 .focus-class {
   color: #6e7964;
-  font-size: 10px;
+  font-size: var(--text-small);
 }
 .next-task h2 {
   font-size: 22px;
@@ -1176,28 +1179,28 @@ input[type='checkbox'] {
   border-bottom: 1px solid #dfe6d5;
 }
 .next-task-camo .small {
-  font-size: 10px;
+  font-size: var(--text-small);
 }
 .next-task-camo > strong {
   display: block;
-  font-size: 13px;
+  font-size: var(--text-body);
   font-weight: 530;
   margin-top: 4px;
 }
 .next-task-camo > p {
-  font-size: 12px;
+  font-size: var(--text-body);
   margin-top: 7px;
   color: #687b55;
   line-height: 1.8;
 }
 .next-prereq {
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
   margin: 12px 0;
   line-height: 1.6;
 }
 .next-task [data-slot='button'] {
-  font-size: 11px;
+  font-size: var(--text-small);
   height: 32px;
   background: #4b613c;
   color: #fff;
@@ -1215,7 +1218,7 @@ input[type='checkbox'] {
   justify-content: space-between;
 }
 .aside-section-title h3 {
-  font-size: 12px;
+  font-size: var(--text-body);
   font-weight: 550;
   display: flex;
   align-items: center;
@@ -1223,7 +1226,7 @@ input[type='checkbox'] {
   letter-spacing: -0.02em;
 }
 .aside-section-title > span {
-  font-size: 11px;
+  font-size: var(--text-small);
   color: #6e7964;
 }
 .progress-blocks {
@@ -1241,7 +1244,7 @@ input[type='checkbox'] {
   background: #7f9764;
 }
 .overall-progress p {
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
 }
 .overall-progress p > strong {
@@ -1257,14 +1260,14 @@ input[type='checkbox'] {
   color: #6e7964;
 }
 .sync-card p {
-  font-size: 11px;
+  font-size: var(--text-small);
   line-height: 1.9;
   color: #6e7964;
   margin: 10px 0 13px;
 }
 .sync-card [data-slot='button'] {
   height: 30px;
-  font-size: 10px;
+  font-size: var(--text-small);
   border-color: #dfe5d7;
   border-radius: 6px;
   background: transparent;
@@ -1279,7 +1282,7 @@ input[type='checkbox'] {
   margin-bottom: 7px;
 }
 .field-notes .aside-section-title .small {
-  font-size: 9px;
+  font-size: var(--text-caption);
   color: #6e7964;
 }
 .field-notes > a {
@@ -1290,17 +1293,17 @@ input[type='checkbox'] {
 .note-tag {
   display: block;
   color: #6e7964;
-  font-size: 8px;
+  font-size: var(--text-caption);
   letter-spacing: 0.09em;
 }
 .field-notes strong {
   display: block;
-  font-size: 12px;
+  font-size: var(--text-body);
   font-weight: 520;
   margin-top: 6px;
 }
 .field-notes p {
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
   line-height: 1.9;
   margin: 6px 0 8px;
@@ -1309,7 +1312,7 @@ input[type='checkbox'] {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
 }
 .field-guide-teasers {
@@ -1338,7 +1341,7 @@ input[type='checkbox'] {
   transform: translateY(-2px);
 }
 .guide-card > span {
-  font-size: 9px;
+  font-size: var(--text-caption);
   color: #6e7964;
   letter-spacing: 0.07em;
 }
@@ -1349,7 +1352,7 @@ input[type='checkbox'] {
   letter-spacing: -0.035em;
 }
 .guide-card > p {
-  font-size: 12px;
+  font-size: var(--text-body);
   line-height: 1.9;
   color: #6e7964;
   margin-top: 8px;
@@ -1378,7 +1381,7 @@ input[type='checkbox'] {
   font-weight: 550;
 }
 .explainer-copy p {
-  font-size: 12px;
+  font-size: var(--text-body);
   line-height: 1.95;
   color: #6e7964;
   margin-top: 12px;
@@ -1399,7 +1402,7 @@ input[type='checkbox'] {
 }
 .faq-list summary {
   padding: 13px 0;
-  font-size: 12px;
+  font-size: var(--text-body);
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -1418,7 +1421,7 @@ input[type='checkbox'] {
   transform: rotate(180deg);
 }
 .faq-list details > p {
-  font-size: 12px;
+  font-size: var(--text-body);
   line-height: 1.95;
   padding-bottom: 17px;
   color: #6e7964;
@@ -1444,12 +1447,12 @@ input[type='checkbox'] {
   color: #62744f;
 }
 .footer-inner p {
-  font-size: 11px;
+  font-size: var(--text-small);
   color: #6e7964;
   margin-top: 8px;
 }
 .footer-inner .disclaimer {
-  font-size: 9px;
+  font-size: var(--text-caption);
   line-height: 1.8;
   max-width: 380px;
   color: #6e7964;
@@ -1458,14 +1461,14 @@ input[type='checkbox'] {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 11px 25px;
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
 }
 .footer-links a:hover {
   text-decoration: underline;
 }
 .footer-year {
-  font-size: 9px;
+  font-size: var(--text-caption);
   color: #6e7964;
   white-space: nowrap;
 }
@@ -1474,7 +1477,7 @@ input[type='checkbox'] {
   display: flex;
   gap: 8px;
   align-items: flex-start;
-  font-size: 11px;
+  font-size: var(--text-small);
   line-height: 1.8;
   background: #f6f2e8;
   color: #6e7964;
@@ -1498,7 +1501,7 @@ input[type='checkbox'] {
   padding: 0;
   background: transparent;
   color: #66804e;
-  font-size: 12px;
+  font-size: var(--text-body);
   text-align: center;
 }
 .text-button:hover {
@@ -1507,14 +1510,14 @@ input[type='checkbox'] {
 }
 .danger-link {
   color: #6e7964;
-  font-size: 11px;
+  font-size: var(--text-small);
   border: 0;
   background: transparent;
   padding: 0;
   text-align: left;
 }
 .form-error {
-  font-size: 12px;
+  font-size: var(--text-body);
   line-height: 1.75;
   color: #b35144;
   background: #fcf4f1;
@@ -1537,7 +1540,7 @@ input[type='checkbox'] {
 }
 .account-dialog [data-slot='dialog-description'],
 .backup-dialog [data-slot='dialog-description'] {
-  font-size: 12px;
+  font-size: var(--text-body);
   line-height: 1.8;
   color: #6e7964;
 }
@@ -1563,7 +1566,7 @@ input[type='checkbox'] {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  font-size: 12px;
+  font-size: var(--text-body);
   color: #6b7f59;
 }
 .auth-form input,
@@ -1574,7 +1577,7 @@ input[type='checkbox'] {
   padding: 9px 11px;
   background: #fdfefa;
   color: #36452b;
-  font-size: 13px;
+  font-size: var(--text-body);
   min-height: 39px;
 }
 .auth-form input::placeholder {
@@ -1583,11 +1586,11 @@ input[type='checkbox'] {
 .auth-form [data-slot='button'],
 .account-body [data-slot='button'] {
   min-height: 37px;
-  font-size: 12px;
+  font-size: var(--text-body);
   border-radius: 7px;
 }
 .auth-form .small {
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
 }
 .auth-form .small > a {
@@ -1605,17 +1608,17 @@ input[type='checkbox'] {
   display: block;
 }
 .account-identity strong {
-  font-size: 14px;
+  font-size: var(--text-body);
 }
 .account-identity span {
-  font-size: 11px;
+  font-size: var(--text-small);
   color: #6e7964;
   margin-top: 3px;
 }
 .account-security {
   border-top: 1px solid var(--border);
   padding-top: 15px;
-  font-size: 11px;
+  font-size: var(--text-small);
 }
 .account-security summary {
   cursor: pointer;
@@ -1650,13 +1653,13 @@ input[type='checkbox'] {
   flex: 1;
 }
 .backup-options > button strong {
-  font-size: 13px;
+  font-size: var(--text-body);
   font-weight: 500;
   color: #50683e;
   display: block;
 }
 .backup-options > button small {
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
   display: block;
   margin-top: 4px;
@@ -1665,7 +1668,7 @@ input[type='checkbox'] {
   border-color: #afc098;
 }
 .backup-dialog > .small {
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
 }
 .menu-links {
@@ -1678,7 +1681,7 @@ input[type='checkbox'] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 13px;
+  font-size: var(--text-body);
 }
 .error-page {
   padding-top: 90px;
@@ -1703,7 +1706,7 @@ input[type='checkbox'] {
   border: 0;
   border-radius: 7px;
   margin-top: 25px;
-  font-size: 13px;
+  font-size: var(--text-body);
 }
 .article-page {
   max-width: 1100px;
@@ -1721,7 +1724,7 @@ input[type='checkbox'] {
   max-width: 800px;
 }
 .article-hero .article-lead {
-  font-size: 15px;
+  font-size: var(--text-body);
   line-height: 1.85;
   color: #6e7964;
   max-width: 720px;
@@ -1731,7 +1734,7 @@ input[type='checkbox'] {
   flex-wrap: wrap;
   align-items: center;
   gap: 15px;
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #6e7964;
   margin-top: 18px;
 }
@@ -1754,12 +1757,12 @@ input[type='checkbox'] {
   margin-bottom: 14px;
 }
 .article-content h3 {
-  font-size: 15px;
+  font-size: var(--text-body);
   margin: 19px 0 9px;
 }
 .article-content p,
 .article-content li {
-  font-size: 13px;
+  font-size: var(--text-body);
   line-height: 1.95;
   color: #6e7964;
 }
@@ -1794,13 +1797,13 @@ input[type='checkbox'] {
   position: sticky;
   top: 94px;
   align-self: start;
-  font-size: 11px;
+  font-size: var(--text-small);
   border-left: 1px solid var(--border);
   padding-left: 21px;
   color: #6e7964;
 }
 .article-toc > span {
-  font-size: 9px;
+  font-size: var(--text-caption);
   letter-spacing: 0.1em;
   color: #6e7964;
 }
@@ -1812,7 +1815,7 @@ input[type='checkbox'] {
 .article-toc .primary-link {
   padding: 9px 12px;
   color: #fff;
-  font-size: 10px;
+  font-size: var(--text-small);
   margin-top: 23px;
 }
 .article-table-wrap {
@@ -1825,14 +1828,14 @@ input[type='checkbox'] {
   width: 100%;
   border-collapse: collapse;
   background: white;
-  font-size: 12px;
+  font-size: var(--text-body);
   line-height: 1.8;
 }
 .article-table th {
   text-align: left;
   background: #f3f5ef;
   color: #6e7964;
-  font-size: 10px;
+  font-size: var(--text-small);
   padding: 10px 13px;
   font-weight: 500;
 }
@@ -1841,7 +1844,7 @@ input[type='checkbox'] {
   border-top: 1px solid #eaf0e2;
   vertical-align: top;
   color: #6e7964;
-  font-size: 11px;
+  font-size: var(--text-small);
 }
 .article-table td:first-child {
   color: #465e34;
@@ -1862,17 +1865,17 @@ input[type='checkbox'] {
   background: white;
 }
 .route-step > span {
-  font-size: 11px;
+  font-size: var(--text-small);
   min-width: 22px;
   color: #6e7964;
   padding-top: 4px;
 }
 .route-step h3 {
-  font-size: 14px;
+  font-size: var(--text-body);
   margin: 0 0 4px;
 }
 .route-step p {
-  font-size: 12px;
+  font-size: var(--text-body);
 }
 .source-list {
   display: grid;
@@ -1886,15 +1889,15 @@ input[type='checkbox'] {
   background: #fff;
 }
 .source-entry h3 {
-  font-size: 14px;
+  font-size: var(--text-body);
   margin: 0 0 5px;
 }
 .source-entry p {
-  font-size: 11px;
+  font-size: var(--text-small);
   line-height: 1.9;
 }
 .source-entry > a {
-  font-size: 11px;
+  font-size: var(--text-small);
   color: #6e7964;
   display: inline-flex;
   gap: 6px;
@@ -1925,17 +1928,17 @@ input[type='checkbox'] {
   box-shadow: 0 0 0 4px #fafafa;
 }
 .patch-entry time {
-  font-size: 9px;
+  font-size: var(--text-caption);
   color: #6e7964;
   letter-spacing: 0.08em;
 }
 .patch-entry h3 {
-  font-size: 13px;
+  font-size: var(--text-body);
   margin: 7px 0;
 }
 .patch-entry .patch-status {
   display: inline-block;
-  font-size: 9px;
+  font-size: var(--text-caption);
   color: #6e7964;
   border: 1px solid #d4e3c4;
   background: #edf4e6;
@@ -1944,7 +1947,7 @@ input[type='checkbox'] {
   border-radius: 3px;
 }
 .patch-entry p {
-  font-size: 12px;
+  font-size: var(--text-body);
 }
 .article-cta {
   border: 1px solid #dce7d2;
@@ -1971,7 +1974,7 @@ input[type='checkbox'] {
   font-variant-numeric: tabular-nums;
 }
 .weapon-overview-count span {
-  font-size: 14px;
+  font-size: var(--text-body);
   color: #6e7964;
 }
 .weapon-guide-controls {
@@ -1982,23 +1985,23 @@ input[type='checkbox'] {
   margin-bottom: 20px;
 }
 .weapon-guide-controls [data-slot='tabs-trigger'] {
-  font-size: 12px;
+  font-size: var(--text-body);
   padding: 5px 12px;
 }
 .weapon-guide-page .challenge-groups {
   gap: 28px;
 }
 .weapon-guide-page .challenge-detail p {
-  font-size: 12px;
+  font-size: var(--text-body);
 }
 .weapon-guide-page .challenge-name > strong {
-  font-size: 13px;
+  font-size: var(--text-body);
 }
 .weapon-guide-page .military-grid {
   grid-template-columns: repeat(2, 1fr);
 }
 .weapon-guide-page .prerequisite {
-  font-size: 11px;
+  font-size: var(--text-small);
 }
 .related-weapons {
   display: flex;
@@ -2010,11 +2013,11 @@ input[type='checkbox'] {
   border: 1px solid var(--border);
   padding: 8px 12px;
   border-radius: 7px;
-  font-size: 12px;
+  font-size: var(--text-body);
   color: #6e7964;
 }
 .weapon-source-note {
-  font-size: 11px;
+  font-size: var(--text-small);
   color: #6e7964;
   line-height: 1.9;
   margin-top: 20px;
@@ -2110,13 +2113,10 @@ input[type='checkbox'] {
     gap: 5px;
   }
   .weapon-name {
-    font-size: 11px;
+    font-size: var(--text-small);
   }
   .weapon-identity {
     gap: 6px;
-  }
-  .camo-tile {
-    --tile: 22px;
   }
   .camo-tile-large {
     --tile: 39px;
@@ -2125,7 +2125,7 @@ input[type='checkbox'] {
     grid-template-columns: repeat(2, 1fr);
   }
   .class-filters button {
-    font-size: 9px;
+    font-size: var(--text-caption);
     padding: 4px 5px;
     gap: 4px;
   }
@@ -2133,7 +2133,7 @@ input[type='checkbox'] {
     padding: 14px;
   }
   .table-footnote {
-    font-size: 8px;
+    font-size: var(--text-caption);
   }
   .summary-card {
     padding-left: 19px;
@@ -2158,16 +2158,13 @@ input[type='checkbox'] {
     padding: 24px 24px 48px;
   }
   .weapon-name {
-    font-size: 13px;
+    font-size: var(--text-body);
   }
   .weapon-class {
-    font-size: 10px;
+    font-size: var(--text-small);
   }
   .weapon-row-top {
     padding: 14px;
-  }
-  .camo-tile {
-    --tile: 25px;
   }
   .camo-tile-large {
     --tile: 39px;
@@ -2204,7 +2201,7 @@ input[type='checkbox'] {
     font-size: 36px;
   }
   .summary-card p {
-    font-size: 9px;
+    font-size: var(--text-caption);
   }
   .article-layout {
     gap: 32px;
@@ -2214,7 +2211,7 @@ input[type='checkbox'] {
     gap: 30px;
   }
   .table-footnote {
-    font-size: 9px;
+    font-size: var(--text-caption);
   }
 }
 @media (max-width: 760px) {
@@ -2236,7 +2233,7 @@ input[type='checkbox'] {
     gap: 8px;
   }
   .account-trigger {
-    font-size: 12px !important;
+    font-size: var(--text-body) !important;
     height: 30px !important;
     max-width: 135px;
   }
@@ -2266,7 +2263,7 @@ input[type='checkbox'] {
     flex-direction: column;
     align-items: center;
     gap: 3px;
-    font-size: 10px;
+    font-size: var(--text-small);
     color: #6e7964;
     min-width: 48px;
   }
@@ -2277,7 +2274,7 @@ input[type='checkbox'] {
     padding: 20px 18px 42px;
   }
   .season-stamp {
-    font-size: 8px;
+    font-size: var(--text-caption);
     gap: 4px;
     letter-spacing: 0.02em;
   }
@@ -2285,7 +2282,7 @@ input[type='checkbox'] {
     margin: 0 2px;
   }
   .breadcrumbs {
-    font-size: 10px;
+    font-size: var(--text-small);
     gap: 5px;
   }
   .breadcrumbs > span {
@@ -2305,11 +2302,11 @@ input[type='checkbox'] {
     margin-top: 8px;
   }
   .tracker-intro .eyebrow {
-    font-size: 9px;
+    font-size: var(--text-caption);
     letter-spacing: 0.1em;
   }
   .tracker-intro p {
-    font-size: 12px;
+    font-size: var(--text-body);
     line-height: 1.9;
     margin-top: 10px;
     max-width: 310px;
@@ -2355,17 +2352,17 @@ input[type='checkbox'] {
     width: 14px;
   }
   .summary-title {
-    font-size: 13px;
+    font-size: var(--text-body);
   }
   .summary-value {
     font-size: 26px;
     margin-top: 3px;
   }
   .summary-value > span {
-    font-size: 12px;
+    font-size: var(--text-body);
   }
   .summary-card > p {
-    font-size: 9px;
+    font-size: var(--text-caption);
     margin-top: 7px;
   }
   .thin-progress {
@@ -2373,17 +2370,17 @@ input[type='checkbox'] {
     margin-top: 9px;
   }
   .step-number {
-    font-size: 10px;
+    font-size: var(--text-small);
   }
   .summary-value .auto-label {
-    font-size: 8px;
+    font-size: var(--text-caption);
   }
   .panel-heading {
     padding-bottom: 16px;
   }
   .panel-heading .eyebrow,
   .section-heading .eyebrow {
-    font-size: 9px;
+    font-size: var(--text-caption);
   }
   .panel-heading h2,
   .section-heading h2 {
@@ -2391,11 +2388,11 @@ input[type='checkbox'] {
     margin-top: 4px;
   }
   .count-badge {
-    font-size: 10px;
+    font-size: var(--text-small);
     padding: 1px 4px;
   }
   .panel-heading [data-slot='button'] {
-    font-size: 10px;
+    font-size: var(--text-small);
     height: 28px;
     padding: 0 8px;
     gap: 4px;
@@ -2408,7 +2405,7 @@ input[type='checkbox'] {
     gap: 8px;
   }
   .mode-status [data-slot='tabs-trigger'] {
-    font-size: 11px;
+    font-size: var(--text-small);
     min-width: 64px;
     padding: 3px 9px;
     height: 25px;
@@ -2417,7 +2414,7 @@ input[type='checkbox'] {
     height: 31px;
   }
   .save-status {
-    font-size: 9px;
+    font-size: var(--text-caption);
     gap: 3px;
     text-align: right;
   }
@@ -2437,7 +2434,7 @@ input[type='checkbox'] {
   }
   .search-field input {
     min-height: 33px;
-    font-size: 12px;
+    font-size: var(--text-body);
   }
   .sort-field {
     padding-left: 8px;
@@ -2447,7 +2444,7 @@ input[type='checkbox'] {
     display: none;
   }
   .sort-field select {
-    font-size: 11px;
+    font-size: var(--text-small);
     min-height: 33px;
     max-width: 94px;
   }
@@ -2464,11 +2461,11 @@ input[type='checkbox'] {
     display: none;
   }
   .class-filters button {
-    font-size: 11px;
+    font-size: var(--text-small);
     padding: 5px 7px;
   }
   .checklist-options {
-    font-size: 10px;
+    font-size: var(--text-small);
     padding: 11px 0;
   }
   .checklist-options > div {
@@ -2492,10 +2489,10 @@ input[type='checkbox'] {
     gap: 9px;
   }
   .weapon-name {
-    font-size: 13px;
+    font-size: var(--text-body);
   }
   .weapon-class {
-    font-size: 10px;
+    font-size: var(--text-small);
     margin-top: 2px;
   }
   .pin-button {
@@ -2511,10 +2508,10 @@ input[type='checkbox'] {
     padding: 0;
   }
   .weapon-done {
-    font-size: 12px;
+    font-size: var(--text-body);
   }
   .weapon-done small {
-    font-size: 10px;
+    font-size: var(--text-small);
   }
   .expand-button {
     padding: 3px;
@@ -2529,19 +2526,18 @@ input[type='checkbox'] {
     gap: 3px;
   }
   .camo-tile {
-    --tile: clamp(16px, 4.5vw, 25px);
     height: var(--tile);
     width: var(--tile);
     border-radius: 4px;
   }
   .camo-tile .tile-index {
-    font-size: 8px;
+    font-size: var(--text-caption);
   }
   .camo-tile-large {
     --tile: 38px;
   }
   .camo-tile-large .tile-index {
-    font-size: 11px;
+    font-size: var(--text-small);
   }
   .camo-tile svg {
     width: 11px;
@@ -2550,7 +2546,7 @@ input[type='checkbox'] {
     width: 17px;
   }
   .table-footnote {
-    font-size: 9px;
+    font-size: var(--text-caption);
     line-height: 1.6;
     align-items: flex-start;
     padding: 11px 1px;
@@ -2572,13 +2568,13 @@ input[type='checkbox'] {
     padding: 15px 12px;
   }
   .expanded-heading {
-    font-size: 8px;
+    font-size: var(--text-caption);
     letter-spacing: 0.03em;
     margin-bottom: 16px;
     gap: 6px;
   }
   .expanded-heading a {
-    font-size: 9px;
+    font-size: var(--text-caption);
   }
   .expanded-heading a svg {
     width: 10px;
@@ -2587,11 +2583,11 @@ input[type='checkbox'] {
     display: block;
   }
   .group-label h3 {
-    font-size: 13px;
+    font-size: var(--text-body);
   }
   .group-label > span {
     display: block;
-    font-size: 10px;
+    font-size: var(--text-small);
     margin-top: 3px;
   }
   .military-grid {
@@ -2602,36 +2598,36 @@ input[type='checkbox'] {
     gap: 8px;
   }
   .challenge-name > strong {
-    font-size: 11px;
+    font-size: var(--text-small);
   }
   .challenge-detail p {
-    font-size: 11px;
+    font-size: var(--text-small);
   }
   .challenge-groups {
     gap: 20px;
   }
   .prerequisite {
-    font-size: 10px;
+    font-size: var(--text-small);
     gap: 4px;
   }
   .prerequisite svg {
     width: 10px;
   }
   .community-badge {
-    font-size: 9px;
+    font-size: var(--text-caption);
   }
   .mode-mastery-panel {
     margin-top: 28px;
   }
   .section-heading > a {
-    font-size: 10px;
+    font-size: var(--text-small);
     gap: 3px;
   }
   .section-heading > a svg {
     width: 12px;
   }
   .section-copy {
-    font-size: 11px;
+    font-size: var(--text-small);
     margin-top: 8px;
     margin-bottom: 13px;
   }
@@ -2648,19 +2644,19 @@ input[type='checkbox'] {
     --tile: 32px;
   }
   .mastery-card-top > span {
-    font-size: 9px;
+    font-size: var(--text-caption);
   }
   .mode-mastery-card h3 {
-    font-size: 12px;
+    font-size: var(--text-body);
     line-height: 1.6;
   }
   .mode-mastery-card > p {
-    font-size: 10px;
+    font-size: var(--text-small);
     line-height: 1.85;
     margin-bottom: 11px;
   }
   .mastery-prereq {
-    font-size: 9px;
+    font-size: var(--text-caption);
     line-height: 1.7;
     gap: 4px;
     padding-top: 9px;
@@ -2683,14 +2679,14 @@ input[type='checkbox'] {
     padding: 15px 18px 17px;
   }
   .guide-card > span {
-    font-size: 9px;
+    font-size: var(--text-caption);
   }
   .guide-card > h3 {
-    font-size: 15px;
+    font-size: var(--text-body);
     margin-top: 7px;
   }
   .guide-card > p {
-    font-size: 12px;
+    font-size: var(--text-body);
     margin-top: 5px;
     max-width: 86%;
   }
@@ -2706,25 +2702,25 @@ input[type='checkbox'] {
     padding-top: 25px;
   }
   .explainer-copy .eyebrow {
-    font-size: 9px;
+    font-size: var(--text-caption);
   }
   .explainer-copy h2,
   .faq-list h2 {
     font-size: 18px;
   }
   .explainer-copy p {
-    font-size: 12px;
+    font-size: var(--text-body);
     line-height: 2;
   }
   .faq-list {
     padding-top: 0;
   }
   .faq-list summary {
-    font-size: 12px;
+    font-size: var(--text-body);
     padding: 13px 0;
   }
   .faq-list details > p {
-    font-size: 12px;
+    font-size: var(--text-body);
   }
   .footer-inner {
     grid-template-columns: 1fr;
@@ -2733,14 +2729,14 @@ input[type='checkbox'] {
   }
   .footer-inner .disclaimer {
     max-width: 100%;
-    font-size: 10px;
+    font-size: var(--text-small);
   }
   .footer-links {
-    font-size: 11px;
+    font-size: var(--text-small);
     max-width: 280px;
   }
   .footer-year {
-    font-size: 10px;
+    font-size: var(--text-small);
   }
   .article-hero {
     padding: 27px 0 24px;
@@ -2751,14 +2747,14 @@ input[type='checkbox'] {
     letter-spacing: -0.05em;
   }
   .article-hero .eyebrow {
-    font-size: 10px;
+    font-size: var(--text-small);
   }
   .article-hero .article-lead {
-    font-size: 13px;
+    font-size: var(--text-body);
     line-height: 1.85;
   }
   .article-meta {
-    font-size: 10px;
+    font-size: var(--text-small);
     gap: 9px;
     line-height: 1.8;
     margin-top: 15px;
@@ -2774,22 +2770,22 @@ input[type='checkbox'] {
     font-size: 20px;
   }
   .article-content h3 {
-    font-size: 15px;
+    font-size: var(--text-body);
   }
   .article-content p,
   .article-content li {
-    font-size: 13px;
+    font-size: var(--text-body);
     line-height: 1.95;
   }
   .article-content section {
     margin-bottom: 29px;
   }
   .article-table th {
-    font-size: 10px;
+    font-size: var(--text-small);
     padding: 9px;
   }
   .article-table td {
-    font-size: 11px;
+    font-size: var(--text-small);
     padding: 10px;
   }
   .article-table td:first-child {
@@ -2799,37 +2795,37 @@ input[type='checkbox'] {
     font-size: 24px;
   }
   .weapon-overview-count span {
-    font-size: 13px;
+    font-size: var(--text-body);
   }
   .weapon-guide-controls {
     gap: 10px;
     flex-wrap: wrap;
   }
   .weapon-guide-controls [data-slot='tabs-trigger'] {
-    font-size: 12px;
+    font-size: var(--text-body);
     padding: 4px 10px;
   }
   .weapon-guide-controls .save-status {
-    font-size: 10px;
+    font-size: var(--text-small);
   }
   .weapon-guide-page .challenge-detail p {
-    font-size: 12px;
+    font-size: var(--text-body);
   }
   .weapon-guide-page .challenge-name > strong {
-    font-size: 13px;
+    font-size: var(--text-body);
   }
   .weapon-guide-page .prerequisite {
-    font-size: 11px;
+    font-size: var(--text-small);
   }
   .route-step {
     padding: 14px;
     gap: 11px;
   }
   .route-step h3 {
-    font-size: 13px;
+    font-size: var(--text-body);
   }
   .route-step p {
-    font-size: 12px;
+    font-size: var(--text-body);
   }
   .article-cta {
     padding: 20px;
@@ -2846,14 +2842,14 @@ input[type='checkbox'] {
     font-size: 29px;
   }
   .error-page > p {
-    font-size: 13px;
+    font-size: var(--text-body);
   }
   .account-dialog,
   .backup-dialog {
     padding: 22px !important;
   }
   .inline-note {
-    font-size: 11px;
+    font-size: var(--text-small);
     padding: 9px;
   }
   .account-dialog [data-slot='dialog-title'],
@@ -2873,7 +2869,7 @@ input[type='checkbox'] {
     display: none;
   }
   .account-trigger {
-    font-size: 11px !important;
+    font-size: var(--text-small) !important;
   }
   .tracker-intro h1 {
     font-size: 28px;
@@ -2888,16 +2884,13 @@ input[type='checkbox'] {
     padding-right: 8px;
   }
   .save-status {
-    font-size: 8px;
+    font-size: var(--text-caption);
   }
   .camo-strip {
     gap: 7px;
   }
   .camo-strip > div {
     gap: 2px;
-  }
-  .camo-tile {
-    --tile: 16px;
   }
   .camo-tile-large {
     --tile: 34px;
@@ -2932,11 +2925,11 @@ input[type='checkbox'] {
     grid-column: 2;
   }
   .mode-mastery-card > p {
-    font-size: 11px;
+    font-size: var(--text-small);
     margin: 3px 0 8px;
   }
   .mastery-prereq {
-    font-size: 10px;
+    font-size: var(--text-small);
   }
   .mode-mastery-card .community-badge {
     grid-column: 2;
@@ -2958,7 +2951,7 @@ input[type='checkbox'] {
 .mobile-focus {
   display: none;
 }
-@media (max-width: 980px) {
+@media (max-width: 1519px) {
   .mobile-focus {
     display: flex;
     align-items: center;
@@ -2978,13 +2971,13 @@ input[type='checkbox'] {
   }
   .mobile-focus small {
     display: block;
-    font-size: 8px;
+    font-size: var(--text-caption);
     letter-spacing: 0.07em;
     color: #75886a;
   }
   .mobile-focus strong {
     display: block;
-    font-size: 11px;
+    font-size: var(--text-small);
     font-weight: 550;
     margin-top: 5px;
   }
@@ -2999,10 +2992,10 @@ input[type='checkbox'] {
     gap: 9px;
   }
   .mobile-focus small {
-    font-size: 8px;
+    font-size: var(--text-caption);
   }
   .mobile-focus strong {
-    font-size: 11px;
+    font-size: var(--text-small);
     line-height: 1.7;
   }
 }
@@ -3046,7 +3039,7 @@ input[type='checkbox'] {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  font-size: 12px;
+  font-size: var(--text-body);
   font-weight: 550;
   cursor: pointer;
   color: #425238;
@@ -3080,7 +3073,7 @@ input[type='checkbox'] {
 }
 .mode-requirement p {
   margin: 0;
-  font-size: 12px;
+  font-size: var(--text-body);
   color: #67705e;
   line-height: 1.6;
 }
@@ -3093,7 +3086,7 @@ input[type='checkbox'] {
   flex-shrink: 0;
   width: 32px;
   padding: 1px 3px;
-  font-size: 9px;
+  font-size: var(--text-caption);
   line-height: 18px;
   border: 1px solid #cbd9df;
   border-radius: 4px;
@@ -3130,7 +3123,7 @@ input[type='checkbox'] {
   letter-spacing: -0.035em;
 }
 .camo-detail-dialog [data-slot='dialog-description'] {
-  font-size: 12px;
+  font-size: var(--text-body);
   line-height: 1.7;
   color: #69725f;
 }
@@ -3155,11 +3148,11 @@ input[type='checkbox'] {
   justify-content: center;
   gap: 12px;
   padding: 20px;
-  font-size: 12px;
+  font-size: var(--text-body);
   color: #6d7662;
 }
 .detail-requirements h3 {
-  font-size: 13px;
+  font-size: var(--text-body);
   font-weight: 600;
 }
 .detail-requirements .mode-requirement {
@@ -3173,7 +3166,7 @@ input[type='checkbox'] {
   border-color: #cbd9be;
 }
 .detail-requirements > p {
-  font-size: 14px;
+  font-size: var(--text-body);
   line-height: 1.7;
   padding-top: 8px;
 }
@@ -3191,16 +3184,16 @@ input[type='checkbox'] {
   margin-top: 2px;
 }
 .detail-gate strong {
-  font-size: 12px;
+  font-size: var(--text-body);
   font-weight: 600;
 }
 .detail-gate p {
-  font-size: 12px;
+  font-size: var(--text-body);
   line-height: 1.7;
   margin-top: 3px;
 }
 .detail-source-note {
-  font-size: 11px;
+  font-size: var(--text-small);
   line-height: 1.7;
   color: #747464;
 }
@@ -3209,7 +3202,7 @@ input[type='checkbox'] {
   padding-top: 10px;
 }
 .detail-record p {
-  font-size: 11px;
+  font-size: var(--text-small);
   line-height: 1.7;
   color: #707a63;
   margin-top: 5px;
@@ -3218,7 +3211,7 @@ input[type='checkbox'] {
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  font-size: 10px;
+  font-size: var(--text-small);
   color: #717b65;
   line-height: 1.7;
 }
@@ -3250,7 +3243,7 @@ input[type='checkbox'] {
   }
   .mode-requirement p,
   .challenge-detail .mode-requirement p {
-    font-size: 12px;
+    font-size: var(--text-body);
   }
   .detail-source {
     flex-wrap: wrap;
@@ -3258,5 +3251,800 @@ input[type='checkbox'] {
   }
   .weapon-guide-art img {
     height: 160px;
+  }
+}
+
+/* Keep artwork and body copy legible before condensing the arsenal layout. */
+.page-container,
+.header-inner,
+.footer-inner {
+  max-width: 1720px;
+}
+.page-container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.article-page {
+  max-width: 1180px;
+}
+.header-inner {
+  height: 76px;
+  gap: 48px;
+}
+.brand {
+  font-size: 23px;
+}
+.desktop-nav {
+  gap: 28px;
+}
+.account-trigger {
+  height: 42px !important;
+  font-size: var(--text-small) !important;
+  max-width: 210px;
+}
+.tracker-intro h1 {
+  font-size: clamp(36px, 3.2vw, 48px);
+}
+.tracker-intro p {
+  font-size: 18px;
+}
+.summary-card {
+  padding: 22px 26px;
+}
+.mastery-emblem {
+  width: 62px;
+  height: 48px;
+  border-radius: 7px;
+}
+.summary-title {
+  font-size: 18px;
+}
+.summary-value {
+  font-size: 36px;
+}
+.summary-card > p {
+  font-size: var(--text-small);
+  line-height: 1.6;
+}
+.workspace-grid {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 32px;
+}
+.field-sidebar {
+  display: none;
+}
+.panel-heading h2,
+.section-heading h2 {
+  font-size: 26px;
+}
+.panel-heading [data-slot='button'] {
+  height: 42px;
+  padding: 0 14px;
+  font-size: var(--text-small);
+}
+.mode-status {
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.mode-status [data-slot='tabs-list'],
+.weapon-guide-controls [data-slot='tabs-list'] {
+  height: 44px;
+}
+.mode-status [data-slot='tabs-trigger'],
+.weapon-guide-controls [data-slot='tabs-trigger'] {
+  height: 36px;
+  font-size: var(--text-body);
+  padding: 5px 18px;
+  min-width: 96px;
+}
+.search-field {
+  min-height: 46px;
+}
+.search-field input {
+  min-height: 44px;
+  font-size: var(--text-body);
+}
+.sort-field {
+  padding-left: 14px;
+}
+.sort-field select {
+  min-height: 44px;
+  max-width: 155px;
+  font-size: var(--text-small);
+}
+.class-filters {
+  gap: 6px;
+}
+.class-filters button {
+  font-size: var(--text-small);
+  padding: 8px 11px;
+  min-height: 40px;
+}
+.checklist-options {
+  padding: 15px 0;
+  gap: 12px;
+}
+.checklist-options input {
+  width: 17px;
+  height: 17px;
+}
+.checklist-options > div {
+  gap: 20px;
+}
+.arsenal-panel {
+  --tile: 42px;
+  --camo-gap: 6px;
+  --camo-group-gap: 18px;
+  --military-width: calc(8 * var(--tile) + 7 * var(--camo-gap));
+  --special-width: calc(3 * var(--tile) + 2 * var(--camo-gap));
+}
+.camo-table-heading,
+.weapon-row-top {
+  grid-template-columns: minmax(290px, 1fr) auto 86px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.camo-table-heading {
+  font-size: var(--text-caption);
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.camo-table-heading > div {
+  gap: var(--camo-group-gap);
+}
+.camo-table-heading > div > span {
+  width: var(--special-width);
+}
+.camo-table-heading > div > span:first-child {
+  width: var(--military-width);
+}
+.camo-table-heading i {
+  font-size: var(--text-caption);
+}
+.weapon-row-top {
+  min-height: 116px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.weapon-identity {
+  gap: 14px;
+  padding-right: 18px;
+}
+.weapon-thumbnail {
+  flex: 0 0 128px;
+  height: 72px;
+  border-radius: 8px;
+}
+.weapon-name {
+  font-size: 18px;
+  font-weight: 600;
+  white-space: normal;
+  line-height: 1.4;
+}
+.weapon-class {
+  font-size: var(--text-small);
+  margin-top: 5px;
+}
+.pin-button {
+  padding: 8px 2px;
+}
+.pin-button svg {
+  width: 18px;
+  height: 18px;
+}
+.camo-strip,
+.camo-strip > .camo-group {
+  gap: var(--camo-group-gap);
+}
+.camo-strip > .camo-group {
+  display: block;
+}
+.camo-group-items {
+  display: flex;
+  gap: var(--camo-gap);
+}
+.camo-group-label {
+  display: none;
+  font-size: var(--text-caption);
+  color: #5b6950;
+  letter-spacing: 0.04em;
+  font-weight: 550;
+  margin-bottom: 9px;
+}
+.camo-group-label small {
+  font-size: inherit;
+  color: #7a8470;
+  margin-left: 5px;
+}
+.camo-tile {
+  width: var(--tile);
+  height: var(--tile);
+  border-radius: 6px;
+}
+.camo-tile svg {
+  width: 18px;
+  height: 18px;
+}
+.camo-tile-large,
+.mastery-card-top .camo-tile-large {
+  --tile: 64px;
+  width: var(--tile);
+  height: var(--tile);
+  border-radius: 9px;
+}
+.camo-tile-large svg {
+  width: 23px;
+  height: 23px;
+}
+.weapon-done {
+  font-size: var(--text-body);
+}
+.weapon-done small {
+  font-size: var(--text-caption);
+}
+.row-end {
+  gap: 10px;
+  padding-left: 14px;
+}
+.expand-button {
+  width: 32px;
+  height: 40px;
+}
+.expand-button svg {
+  width: 20px;
+  height: 20px;
+}
+.weapon-expanded {
+  padding: 26px;
+}
+.expanded-heading {
+  font-size: var(--text-caption);
+  margin-bottom: 24px;
+  gap: 16px;
+}
+.expanded-heading > a {
+  font-size: var(--text-small);
+}
+.group-label {
+  gap: 14px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.group-label h3 {
+  font-size: 18px;
+}
+.group-label > span {
+  font-size: var(--text-small);
+}
+.military-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.challenge-detail {
+  padding: 16px;
+  gap: 14px;
+  border-radius: 9px;
+}
+.challenge-name > strong {
+  font-size: var(--text-body);
+  font-weight: 600;
+}
+.challenge-detail p,
+.mode-requirement p,
+.weapon-guide-page .challenge-detail p {
+  font-size: var(--text-body);
+  line-height: 1.7;
+}
+.challenge-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.challenge-variants {
+  gap: 10px;
+  margin-top: 12px;
+}
+.mode-label {
+  width: 38px;
+  font-size: var(--text-caption);
+  line-height: 21px;
+}
+.prerequisite {
+  font-size: var(--text-small);
+  margin-top: 12px;
+}
+.completion-checkbox {
+  min-height: 40px;
+  font-size: var(--text-body);
+}
+.completion-checkbox input {
+  width: 20px;
+  height: 20px;
+}
+.completion-compact {
+  min-height: 32px;
+  padding: 4px;
+}
+.table-footnote {
+  font-size: var(--text-small);
+  line-height: 1.7;
+  padding: 16px 0;
+  gap: 20px;
+}
+.community-badge {
+  font-size: var(--text-caption);
+}
+.next-task {
+  padding: 22px;
+}
+.next-task h2 {
+  font-size: 28px;
+}
+.next-task-camo > strong {
+  font-size: 18px;
+}
+.next-task [data-slot='button'],
+.sync-card [data-slot='button'] {
+  height: auto;
+  min-height: 44px;
+  font-size: var(--text-small);
+  padding: 10px 12px;
+  white-space: normal;
+}
+.aside-section-title h3 {
+  font-size: 18px;
+}
+.field-notes strong {
+  font-size: var(--text-body);
+}
+.field-notes p,
+.sync-card p,
+.next-prereq,
+.overall-progress p {
+  font-size: var(--text-small);
+}
+.mode-mastery-card h3 {
+  font-size: 19px;
+}
+.mode-mastery-card > p {
+  font-size: var(--text-body);
+}
+.mobile-focus {
+  min-height: 70px;
+}
+.mobile-focus small {
+  font-size: var(--text-caption);
+}
+.mobile-focus strong {
+  font-size: var(--text-body);
+}
+.article-content p,
+.article-content li {
+  font-size: var(--text-body);
+}
+.article-hero .article-lead {
+  font-size: 18px;
+}
+.weapon-guide-art img {
+  height: 290px;
+  max-width: 820px;
+}
+.camo-detail-dialog {
+  width: 840px;
+  padding: 30px;
+}
+.camo-detail-dialog [data-slot='dialog-title'] {
+  font-size: 30px;
+}
+.camo-detail-dialog [data-slot='dialog-description'] {
+  font-size: var(--text-body);
+}
+.camo-preview img {
+  height: 300px;
+}
+.detail-requirements h3 {
+  font-size: 18px;
+}
+.detail-requirements > p {
+  font-size: var(--text-body);
+}
+.detail-gate strong,
+.detail-gate p {
+  font-size: var(--text-body);
+}
+.detail-source-note,
+.detail-record p,
+.detail-source {
+  font-size: var(--text-small);
+}
+@media (min-width: 1520px) {
+  .workspace-grid {
+    grid-template-columns: minmax(0, 1fr) 280px;
+  }
+  .field-sidebar {
+    display: block;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .arsenal-panel {
+    --tile: 38px;
+    --camo-group-gap: 14px;
+  }
+}
+@media (max-width: 1199px) {
+  .camo-table-heading {
+    display: none;
+  }
+  .weapon-list {
+    border-top: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  .weapon-row-top {
+    grid-template-columns: minmax(0, 1fr) auto;
+    padding: 20px;
+    gap: 18px;
+  }
+  .row-end {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .camo-strip {
+    grid-column: 1/-1;
+    grid-row: 2;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .camo-group-label {
+    display: block;
+  }
+  .military-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 900px) {
+  .arsenal-panel {
+    --tile: 36px;
+    --camo-gap: 5px;
+    --camo-group-gap: 12px;
+  }
+  .challenge-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .challenge-detail {
+    padding: 16px;
+  }
+  .military-grid .camo-tile-large {
+    --tile: 52px;
+  }
+  .group-label {
+    display: block;
+  }
+  .group-label > span {
+    display: block;
+    margin-top: 5px;
+  }
+  .header-inner {
+    gap: 28px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .desktop-nav {
+    gap: 18px;
+  }
+}
+@media (max-width: 760px) {
+  .page-container {
+    padding: 24px 18px 54px;
+  }
+  .header-inner {
+    height: 66px;
+    padding: 0 18px;
+    gap: 16px;
+  }
+  .brand {
+    font-size: 20px;
+  }
+  .header-actions {
+    gap: 6px;
+  }
+  .account-trigger {
+    height: 38px !important;
+    font-size: var(--text-small) !important;
+    max-width: 150px;
+  }
+  .tracker-intro h1 {
+    font-size: 36px;
+  }
+  .tracker-intro p {
+    font-size: var(--text-body);
+  }
+  .page-topline {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .summary-card {
+    padding: 18px;
+  }
+  .mastery-emblem {
+    width: 52px;
+    height: 40px;
+  }
+  .summary-title {
+    font-size: var(--text-body);
+  }
+  .summary-card > p {
+    font-size: var(--text-caption);
+  }
+  .panel-heading {
+    gap: 12px;
+    align-items: center;
+  }
+  .panel-heading h2,
+  .section-heading h2 {
+    font-size: 24px;
+  }
+  .panel-heading [data-slot='button'] {
+    padding: 0 10px;
+    font-size: var(--text-small);
+  }
+  .filter-toolbar {
+    flex-wrap: wrap;
+  }
+  .search-field {
+    flex-basis: 100%;
+  }
+  .sort-field {
+    margin-left: auto;
+    min-height: 40px;
+  }
+  .sort-field select {
+    min-height: 40px;
+  }
+  .save-status {
+    font-size: var(--text-caption);
+  }
+  .mode-status > [data-slot='tabs'],
+  .weapon-guide-controls > [data-slot='tabs'] {
+    width: 100%;
+    max-width: 100%;
+  }
+  .mode-status [data-slot='tabs-list'],
+  .weapon-guide-controls [data-slot='tabs-list'] {
+    width: 100%;
+  }
+  .mode-status [data-slot='tabs-trigger'],
+  .weapon-guide-controls [data-slot='tabs-trigger'] {
+    min-width: 0;
+    padding: 5px 10px;
+  }
+  .class-filters button {
+    font-size: var(--text-small);
+  }
+  .checklist-options {
+    font-size: var(--text-caption);
+    flex-wrap: wrap;
+  }
+  .checklist-options > div {
+    gap: 14px;
+  }
+  .weapon-row-top {
+    padding: 18px 14px;
+    gap: 18px 10px;
+  }
+  .weapon-identity {
+    gap: 10px;
+    padding-right: 0;
+  }
+  .weapon-thumbnail {
+    flex-basis: 112px;
+    height: 64px;
+  }
+  .weapon-name {
+    font-size: 18px;
+  }
+  .weapon-class {
+    font-size: var(--text-small);
+  }
+  .row-end {
+    gap: 4px;
+    padding: 0;
+  }
+  .weapon-done {
+    font-size: var(--text-small);
+  }
+  .pin-button {
+    padding: 6px 0;
+  }
+  .pin-button svg {
+    width: 16px;
+    height: 16px;
+  }
+  .expand-button {
+    width: 28px;
+  }
+  .camo-strip {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px 14px;
+  }
+  .arsenal-panel {
+    --tile: 44px;
+    --camo-gap: 6px;
+  }
+  .camo-strip > .camo-group[data-role='military'] {
+    grid-column: 1/-1;
+  }
+  .camo-group-items {
+    display: grid;
+    grid-template-columns: repeat(3, var(--tile));
+    gap: var(--camo-gap);
+  }
+  .camo-group[data-role='military'] .camo-group-items {
+    grid-template-columns: repeat(8, var(--tile));
+  }
+  .camo-group[data-role='military'] .camo-tile {
+    width: var(--tile);
+    height: var(--tile);
+    aspect-ratio: 1;
+  }
+  .camo-strip .camo-tile {
+    border-radius: 6px;
+  }
+  .camo-group-label {
+    font-size: var(--text-caption);
+  }
+  .weapon-expanded {
+    padding: 20px 14px;
+  }
+  .expanded-heading {
+    align-items: start;
+    flex-wrap: wrap;
+    font-size: var(--text-caption);
+    gap: 8px;
+  }
+  .expanded-heading > a {
+    font-size: var(--text-small);
+  }
+  .military-grid,
+  .weapon-guide-page .military-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .military-grid .camo-tile-large,
+  .camo-tile-large {
+    --tile: 64px;
+  }
+  .challenge-detail {
+    gap: 12px;
+    padding: 14px;
+  }
+  .challenge-name > strong {
+    font-size: var(--text-body);
+  }
+  .mode-requirement p,
+  .challenge-detail .mode-requirement p {
+    font-size: var(--text-body);
+  }
+  .prerequisite {
+    font-size: var(--text-small);
+  }
+  .table-footnote {
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+  }
+  .table-footnote > span,
+  .table-footnote > a {
+    max-width: 100%;
+    text-align: left;
+  }
+  .mode-mastery-cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .mode-mastery-card {
+    display: block;
+    padding: 20px;
+  }
+  .mastery-card-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  .mastery-card-top > span {
+    display: block;
+  }
+  .mode-mastery-card > p {
+    font-size: var(--text-body);
+  }
+  .mobile-bottom {
+    height: calc(68px + env(safe-area-inset-bottom));
+  }
+  .mobile-bottom > a,
+  .mobile-bottom > button {
+    font-size: var(--text-caption);
+  }
+  .mobile-focus small {
+    font-size: var(--text-caption);
+  }
+  .mobile-focus strong {
+    font-size: var(--text-body);
+  }
+  .weapon-guide-art img {
+    height: 220px;
+  }
+  .camo-detail-dialog {
+    padding: 24px;
+  }
+  .camo-detail-dialog [data-slot='dialog-title'] {
+    font-size: 28px;
+  }
+  .camo-detail-dialog [data-slot='dialog-description'] {
+    font-size: var(--text-body);
+  }
+  .camo-preview img {
+    height: 240px;
+  }
+  .camo-detail-dialog .mode-requirement p {
+    font-size: var(--text-body);
+  }
+  .detail-source {
+    font-size: var(--text-caption);
+  }
+}
+@media (max-width: 540px) {
+  .weapon-thumbnail {
+    flex-basis: 96px;
+    height: 60px;
+  }
+  .weapon-identity {
+    gap: 10px;
+  }
+  .weapon-row-top {
+    align-items: start;
+  }
+  .row-end {
+    padding-top: 10px;
+  }
+  .camo-group[data-role='military'] .camo-group-items {
+    grid-template-columns: repeat(4, var(--tile));
+  }
+  .camo-group[data-role='military'] .camo-tile {
+    width: var(--tile);
+    height: var(--tile);
+  }
+  .season-stamp {
+    font-size: var(--text-caption);
+  }
+  .header-free {
+    display: none;
+  }
+}
+@media (max-width: 370px) {
+  .page-container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .arsenal-panel {
+    --tile: 38px;
+    --camo-gap: 5px;
+  }
+  .header-inner {
+    padding: 0 14px;
+    gap: 8px;
+  }
+  .brand {
+    font-size: 18px;
+  }
+  .account-trigger {
+    font-size: var(--text-caption) !important;
+    max-width: 124px;
+  }
+  .header-actions {
+    gap: 3px;
+  }
+  .tracker-intro h1 {
+    font-size: 32px;
+  }
+  .panel-heading [data-slot='button'] {
+    font-size: var(--text-caption);
+    padding: 0 8px;
   }
 }
