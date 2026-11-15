@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mw4-camo-tracker",
+  "main": "src/server.ts",
+  "compatibility_date": "2026-11-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "observability": { "enabled": true },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "mw4-camo-tracker-db",
+    "database_id": "e1b0d901-0abf-4de7-9512-6f45d7ed73a8",
+    "migrations_dir": "migrations"
+  }],
+  "vars": { "BETTER_AUTH_URL": "https://mw4-camo-tracker.otoo.workers.dev" }
+}

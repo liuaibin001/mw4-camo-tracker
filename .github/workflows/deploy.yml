@@ -1,0 +1,52 @@
+name: Verify and deploy CamoField
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: camofield-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Create disposable local authentication secret
+        run: node --input-type=module -e "import{writeFileSync}from'node:fs';import{randomBytes}from'node:crypto';writeFileSync('.dev.vars','BETTER_AUTH_SECRET='+randomBytes(48).toString('base64url')+'\n')"
+      - run: npm run data:check
+      - run: npm test
+      - run: npm run typecheck
+      - run: npm run build
+      - run: npm run db:local
+      - name: Exercise built Worker, SSR routes, D1 authentication and sync
+        run: |
+          npm run preview > /tmp/camofield-preview.log 2>&1 &
+          node --input-type=module -e "for(let i=0;i<40;i++){try{const r=await fetch('http://localhost:4321/');if(r.ok)process.exit(0)}catch{}await new Promise(r=>setTimeout(r,1000))}process.exit(1)"
+          npm run test:smoke
+      - name: Apply production migrations
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: npm run db:remote
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - name: Deploy to Cloudflare Workers
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: npx wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

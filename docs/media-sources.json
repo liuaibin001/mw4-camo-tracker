@@ -1,0 +1,1189 @@
+{
+  "retrievedAt": "2026-11-15",
+  "catalogue": "https://mw4.gg/data/camo-grind.json",
+  "note": "Game artwork from public catalogue media URLs. Rights remain with their respective owners; no affiliation or license transfer is claimed. Shared assets are downloaded once and served locally.",
+  "assets": [
+    {
+      "local": "/images/weapons/50-gs-thumb-550f1d5be9.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/e6daa768-f0ae-44a1-9240-5ab2c5407697/thumbnail.webp?v=20261023",
+      "bytes": 16282,
+      "sha256": "fe1d20f8d1bd55e31c4e419da1da623659512a84cb01e1f9db6a122f18528402"
+    },
+    {
+      "local": "/images/weapons/50-gs-eb834574e4.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/e6daa768-f0ae-44a1-9240-5ab2c5407697/image.webp?v=20261023",
+      "bytes": 46766,
+      "sha256": "ec09bb7e1b867245db1a6bc731a2be613fa7329acd8f820a59176f33dbee1984"
+    },
+    {
+      "local": "/images/camos/shed-b23357577b.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-shed/icon.webp",
+      "bytes": 17582,
+      "sha256": "ae228a0609d56ef0b7a085b4d7340f13e86c9fcccffc3626e4c69d09d8e8b0e3"
+    },
+    {
+      "local": "/images/camos/grazer-04c7291d16.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-grazer/icon.webp",
+      "bytes": 30616,
+      "sha256": "4c70dbed06a54399c20fff7fc4e65d1ccb4a6af21119f6056eecff24d59079aa"
+    },
+    {
+      "local": "/images/camos/ice-storm-e13b6f6ebc.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-ice-storm/icon.webp",
+      "bytes": 59040,
+      "sha256": "92fe207d8677f53638f7aabfe4b374050d3bd4f5ff10e66443914c28083f824f"
+    },
+    {
+      "local": "/images/camos/dapple-cast-b11013a199.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-dapple-cast/icon.webp",
+      "bytes": 53346,
+      "sha256": "0d9ad5f09b42382b0b5fe1e027efcb71f999e70af189e9595abecd191768004b"
+    },
+    {
+      "local": "/images/camos/indexed-e1b64999af.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-indexed/icon.webp",
+      "bytes": 30650,
+      "sha256": "caa55c022b93e48b0800f563c4ed572adade19b29d525fb55aa42eb59f73b8fa"
+    },
+    {
+      "local": "/images/camos/groundcover-a3c79f566b.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-groundcover/icon.webp",
+      "bytes": 21100,
+      "sha256": "3f4e465768f6189693fd7611032a34ea7bcefd01e2f1c6f97af8ad6e11542c27"
+    },
+    {
+      "local": "/images/camos/mosswood-5853d6d8ed.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-mosswood/icon.webp",
+      "bytes": 54666,
+      "sha256": "e0c240e8c4906cb618786c71ac278c40a772c104f363aca7e3f997cc9e16d935"
+    },
+    {
+      "local": "/images/camos/mausoleum-5e19f765c9.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-mausoleum/icon.webp",
+      "bytes": 38226,
+      "sha256": "ef84fd2ac42df76e3f07ba6d1a90fc3bc00ae551095ce62ebf92304722a16698"
+    },
+    {
+      "local": "/images/camos/frosted-d1f2265f51.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-frosted/icon.webp",
+      "bytes": 24244,
+      "sha256": "5067ab97523d587b6bf62f068ac18a395df1dea4391b1664ad3bd56103bff416"
+    },
+    {
+      "local": "/images/camos/splatter-ops-a824935bb4.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-splatter-ops/icon.webp",
+      "bytes": 66822,
+      "sha256": "d073f8d33fb0280a6d61dc341d89ee2310acbd0eca2443fe3720ebe8a83286eb"
+    },
+    {
+      "local": "/images/camos/red-tiger-e9fa256562.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-red-tiger/icon.webp",
+      "bytes": 33876,
+      "sha256": "b1deea6c99537a01a8514c8eab0a7d177431b3b43f635a52c64379fe8aab78d5"
+    },
+    {
+      "local": "/images/camos/gold-4b5dea9e61.png",
+      "source": "https://api.mw4.gg/api/v2/media/camo-tracker/gold.png",
+      "bytes": 109291,
+      "sha256": "110f12f6bb9ea79f442f1a539fdffabfbc7a49c64e0e62d7eb7dd5dacbb15865"
+    },
+    {
+      "local": "/images/camos/platinum-e8273101f3.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/cb21da7f-27f0-45ae-af3f-1cd4c64d4e68/icon.webp",
+      "bytes": 30854,
+      "sha256": "66dbb6919c71a9b5697cbb7361420dc249d39f3bbca6d03fe1481cdb7545d87a"
+    },
+    {
+      "local": "/images/camos/harmonic-break-e31e76922d.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/e2b67a99-c9c6-457f-8b52-8ea3bd1e0265/icon.webp",
+      "bytes": 16214,
+      "sha256": "cb93d4212fd549c13e68ccbfd0a28077a8b24167d801fcbab22900b6c7010640"
+    },
+    {
+      "local": "/images/weapons/apoc-338-thumb-b99f0efab5.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/1ae8685d-9458-4665-b2e4-864357de1545/thumbnail.webp?v=20261023",
+      "bytes": 17172,
+      "sha256": "20c9991f6d84ce3edbc78ba89b1d8ce32985b2b30614aed0141c0f60e92c28e0"
+    },
+    {
+      "local": "/images/weapons/apoc-338-7c7dcd7c73.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/1ae8685d-9458-4665-b2e4-864357de1545/image.webp?v=20261023",
+      "bytes": 43160,
+      "sha256": "d97530ae04fea73db7b14c9c98b59d40ca52cf151e610f58f2e2997feff25b33"
+    },
+    {
+      "local": "/images/camos/phantom-flux-397b8181da.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-phantom-flux/icon.webp",
+      "bytes": 77102,
+      "sha256": "8533243ab0d10c55bfcbf7ee7cad1567c2f7755603c87d28c94d53908515a956"
+    },
+    {
+      "local": "/images/camos/mineral-de3b6d15ed.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-mineral/icon.webp",
+      "bytes": 39520,
+      "sha256": "25356fe55c3ad079c3e14e14a9245cee6f54c8475c685f353f2b9acff1213f44"
+    },
+    {
+      "local": "/images/camos/tiger-swipe-ce2c11c360.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-tiger-swipe/icon.webp",
+      "bytes": 44926,
+      "sha256": "53baee88f71499a4f632fadd210e3d448a49cd0008d39551dccb6fd3eae6817e"
+    },
+    {
+      "local": "/images/weapons/astaroth-57-thumb-7b4d406157.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/48c8903d-f041-4e0c-a240-18f85760c573/thumbnail.webp?v=20261023",
+      "bytes": 13572,
+      "sha256": "c0afa6dfbb45d0e3d94e5e14fc00c815da6a0176e2239dda0dc4320f839c8805"
+    },
+    {
+      "local": "/images/weapons/astaroth-57-4b161e3f2b.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/48c8903d-f041-4e0c-a240-18f85760c573/image.webp?v=20261023",
+      "bytes": 31396,
+      "sha256": "bdc836e06a2243d53f104bb2d19fcefb4c00d86031d5994440a146d5cc9e521e"
+    },
+    {
+      "local": "/images/camos/dry-brush-6329fa7fb7.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-dry-brush/icon.webp",
+      "bytes": 39850,
+      "sha256": "2129ccfe7ee821629e5d8180824e4a68b9a8de3a67e81f9b48f56631993fca9c"
+    },
+    {
+      "local": "/images/camos/backcountry-0e5e344979.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-backcountry/icon.webp",
+      "bytes": 40592,
+      "sha256": "0b4369fd62e119e6cdbb64a0cb54d091db23ae5193c8080df8d9f015141cf48d"
+    },
+    {
+      "local": "/images/camos/dread-plague-6a319b0096.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-dread-plague/icon.webp",
+      "bytes": 62600,
+      "sha256": "6be07f3dde08a9b645c0f295c5a029ed22f1e98421cb4f7b412aa2ae9c4cf919"
+    },
+    {
+      "local": "/images/weapons/axion-thumb-d81e1fafd2.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/39b4d75e-aa84-4971-a7ba-6da7671c3942/thumbnail.webp?v=20261023",
+      "bytes": 18146,
+      "sha256": "035ca717a64c56d0e7c7ce442ceed5f90964aad5e5b2c34ace7527b5016e9770"
+    },
+    {
+      "local": "/images/weapons/axion-28872eda1e.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/39b4d75e-aa84-4971-a7ba-6da7671c3942/image.webp?v=20261023",
+      "bytes": 47940,
+      "sha256": "8005b4232b376506689f8184432ac9f6c47e56675c8a4cccfa2895baa6394870"
+    },
+    {
+      "local": "/images/camos/splinter-rock-ae18de917e.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-splinter-rock/icon.webp",
+      "bytes": 31340,
+      "sha256": "a19e3d274188dc7e2dfec4cbc1a8208b343cf9503a8d2d4837a369f8646dc3c3"
+    },
+    {
+      "local": "/images/camos/sunset-tropic-d5177856af.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-sunset-tropic/icon.webp",
+      "bytes": 39652,
+      "sha256": "7b4c0b383d97f2c99aa44ef2404604e26e33fcd4bcf0d59a3a140a36fa6702d6"
+    },
+    {
+      "local": "/images/camos/cyan-9402a11958.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/142be853-da6b-4486-8828-23f0dd35a976/icon.webp",
+      "bytes": 1034,
+      "sha256": "61b08565d06a8d0dcaeaccb695d158f09473b56d4993dd872dd6614739caafcd"
+    },
+    {
+      "local": "/images/weapons/cronen-osprey-thumb-cb7efa18ef.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/11aa369a-70df-4c62-bed1-44316ff70f25/thumbnail.webp",
+      "bytes": 4344,
+      "sha256": "5847c9f1da4e14c5b0a86a9a548313a55c731b0845b9003c6613bcf6c0bb6cf0"
+    },
+    {
+      "local": "/images/weapons/cronen-osprey-a17e79d5d9.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/11aa369a-70df-4c62-bed1-44316ff70f25/image.webp",
+      "bytes": 12624,
+      "sha256": "a7cb011d3e8e228e10156540c67cde53e6163b62b098c76cd6b0b4eac3d9f923"
+    },
+    {
+      "local": "/images/weapons/cronen-squall-thumb-b3bccbd1f1.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/de4c3884-d98d-4713-b43b-98eae172c892/thumbnail.webp?v=20261023",
+      "bytes": 15586,
+      "sha256": "0b9b47dcf28bee3d62fe9358713a13b08c930e5afa74b9b9a3fbe971d20110d4"
+    },
+    {
+      "local": "/images/weapons/cronen-squall-9c7e24300f.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/de4c3884-d98d-4713-b43b-98eae172c892/image.webp?v=20261023",
+      "bytes": 39176,
+      "sha256": "2cc90e268cb6b42ac269ef2008af0ea0be9aa0724885ea9ab5e22b9adce0834d"
+    },
+    {
+      "local": "/images/camos/oni-25a36c689a.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-oni/icon.webp",
+      "bytes": 80274,
+      "sha256": "cf88f1cd80177880c0a3d79813e3dba0fbab8cdb1a3bf665749c3961e0fa67ab"
+    },
+    {
+      "local": "/images/camos/urban-smoke-b6362fd0fb.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-urban-smoke/icon.webp",
+      "bytes": 33180,
+      "sha256": "4b39c4379ec413e1927638c7df7e11a2a64789183a6226e1822774362f95fe12"
+    },
+    {
+      "local": "/images/camos/optical-reverb-2da1019288.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-optical-reverb/icon.webp",
+      "bytes": 21412,
+      "sha256": "42091b17306ef6ac8a6ee6c1ff3a9f5ef6699961640e423ec34380d6e644855a"
+    },
+    {
+      "local": "/images/weapons/csg-35-thumb-cfb857be6a.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/21f65ee7-e0e4-475b-9718-37f808dc856d/thumbnail.webp",
+      "bytes": 3952,
+      "sha256": "ae0920089010bb39a9a65b7d5d8aed0e1ef9747de0652f628750c2d78d5c9200"
+    },
+    {
+      "local": "/images/weapons/csg-35-69c91fb1cc.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/21f65ee7-e0e4-475b-9718-37f808dc856d/image.webp",
+      "bytes": 11306,
+      "sha256": "5503981e706300f4c9a36beae0ae8015e95e69c313d41094285add4ac9b13055"
+    },
+    {
+      "local": "/images/weapons/finn-lmg-thumb-a71e790993.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/ea699e46-9110-4069-a818-10537b6da1f0/thumbnail.webp?v=20261023",
+      "bytes": 19380,
+      "sha256": "e3c71c1473ed11ab1a96f45c61564ccb919793a05e961eaa69bd97185d5a9a64"
+    },
+    {
+      "local": "/images/weapons/finn-lmg-772bd1ebd5.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/ea699e46-9110-4069-a818-10537b6da1f0/image.webp?v=20261023",
+      "bytes": 51364,
+      "sha256": "6a9693194f82a82779e86e604c198903b769ff10b95f9a36575cb8a700b78456"
+    },
+    {
+      "local": "/images/camos/desert-tactics-e4b45aa623.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-desert-tactics/icon.webp",
+      "bytes": 37002,
+      "sha256": "42802f2dcf98eb84dfe11081b5a105b9b60649dd29ad406396ad3fd5dc559b93"
+    },
+    {
+      "local": "/images/camos/green-tiger-8234cb4be6.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-green-tiger/icon.webp",
+      "bytes": 44204,
+      "sha256": "f9a01315d2f3e381119d3574761d29fe52461446512f1859b7732c88adeab506"
+    },
+    {
+      "local": "/images/camos/thunderhead-7da3ebc939.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-thunderhead/icon.webp",
+      "bytes": 61420,
+      "sha256": "794c013ef0a9908bbde4ad96fd30ae617f29b3c13236c5d3e3eed9164be7c6e0"
+    },
+    {
+      "local": "/images/weapons/combat-knife-thumb-1b0c5fcf55.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/w-combat-knife/thumbnail.webp?v=20261023",
+      "bytes": 12620,
+      "sha256": "ed7db22f301c659ef31c5ab9a92bc325fa135b3b3d0145deda30e498548617fc"
+    },
+    {
+      "local": "/images/weapons/combat-knife-a075ffa19a.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/w-combat-knife/image.webp?v=20261023",
+      "bytes": 38786,
+      "sha256": "f5e12f01bfe92bb3e1cd77b5e608444dde20b47d561f6dc844f5d87d3baf6d45"
+    },
+    {
+      "local": "/images/camos/raster-lite-29b6bfbfc9.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-raster-lite/icon.webp",
+      "bytes": 50972,
+      "sha256": "3203c54570fd9526463dfb9fce2ec836921301bf339e42ac64ef24e50d46d819"
+    },
+    {
+      "local": "/images/camos/stockpile-427833cd67.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-stockpile/icon.webp",
+      "bytes": 56480,
+      "sha256": "c522b6610797e24123262a387762f3676d3a58309b54575678ed1bd40e6935be"
+    },
+    {
+      "local": "/images/camos/deathbed-d96673d0af.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-deathbed/icon.webp",
+      "bytes": 65040,
+      "sha256": "0dce9436b8a796c0f919f89ff8c987de9a5839ca03ff1557f218303e620c2d2d"
+    },
+    {
+      "local": "/images/weapons/han-86-thumb-b73804daaf.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/7eb61b16-06bf-4470-9a48-bb9c9e91665d/thumbnail.webp?v=20261023",
+      "bytes": 40248,
+      "sha256": "cf5cc53af49059fbf81e464ff169d909921cfe3da70d5fe661fef86cd721f58d"
+    },
+    {
+      "local": "/images/weapons/han-86-9471bc71b8.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/7eb61b16-06bf-4470-9a48-bb9c9e91665d/image.webp?v=20261023",
+      "bytes": 112134,
+      "sha256": "91f32a2124b386cd39a23e31464a8dcf77c5d9058c6f0b7d66110278528d73f4"
+    },
+    {
+      "local": "/images/camos/smoke-c9d840d55d.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-smoke/icon.webp",
+      "bytes": 30300,
+      "sha256": "185a6cc90ffddf4e8ae79aa9e9e50b225dff8ac4b586d5f5c7b734a53dad5865"
+    },
+    {
+      "local": "/images/camos/stormwave-919dcb11de.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-stormwave/icon.webp",
+      "bytes": 38792,
+      "sha256": "307b27da8fb4e6af681244f1b91ddf18ed33290924d2c1f9b244f7091ca1adf3"
+    },
+    {
+      "local": "/images/camos/red-2a7da5e715.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/8969df9c-8eef-45ee-9e11-e72faa612580/icon.webp",
+      "bytes": 1606,
+      "sha256": "dcbb7a2aec4d883ab3df6719f0594a65f6263e498af788a72457de3bfe5c73da"
+    },
+    {
+      "local": "/images/weapons/hyeon-burst-thumb-e6c0b6fb1b.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/18b35b77-66cc-4ee1-8945-8b0298588c68/thumbnail.webp?v=20261023",
+      "bytes": 18960,
+      "sha256": "574a1824f21cde9d336732a2653d8b1dd854abb0c94d3c92ece7caa0b14ea272"
+    },
+    {
+      "local": "/images/weapons/hyeon-burst-a6018bc996.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/18b35b77-66cc-4ee1-8945-8b0298588c68/image.webp?v=20261023",
+      "bytes": 52680,
+      "sha256": "69d0763e01d18fffdeae10ba2b97dd147bd6b738e0d1e51a068305aa30aeb2c9"
+    },
+    {
+      "local": "/images/camos/ponderosa-33c8953501.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-ponderosa/icon.webp",
+      "bytes": 29726,
+      "sha256": "2b2a778ba8c8fcb231fa61cf84c20dde0d8aab0ee573008bd3cc547d52d17f2a"
+    },
+    {
+      "local": "/images/camos/red-rain-a073092754.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-red-rain/icon.webp",
+      "bytes": 45820,
+      "sha256": "e0d3e3aed3cbd2007dcf6a36f28ceb2fa0ce02393917333b3423a3c2533b3511"
+    },
+    {
+      "local": "/images/camos/kitty-kaos-5f1e756a1b.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-kitty-kaos/icon.webp",
+      "bytes": 61768,
+      "sha256": "1d128c652d33a722df3949b48ad052fa6cfc37b7cbecb540274b0866ec34aea5"
+    },
+    {
+      "local": "/images/weapons/iso-nightshade-thumb-5b5b711148.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/1afe405f-ae2b-4895-a85a-020d6debce7d/thumbnail.webp?v=20261023",
+      "bytes": 17302,
+      "sha256": "30027bed8aea48359e94e554c5ab86599f7a32a1030c8dde0799e4fbe538046e"
+    },
+    {
+      "local": "/images/weapons/iso-nightshade-82dbeaacab.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/1afe405f-ae2b-4895-a85a-020d6debce7d/image.webp?v=20261023",
+      "bytes": 46586,
+      "sha256": "49462a612ea434bd1ad1de6f4a73a5934de87f88f02dff2682a9be16d4072d0c"
+    },
+    {
+      "local": "/images/camos/asphalt-49ec5893cc.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-asphalt/icon.webp",
+      "bytes": 31986,
+      "sha256": "f9dd0d7c0bbe9182f8788cdfa21523a5b443a218c9a0ba5f50362f5567a3fe73"
+    },
+    {
+      "local": "/images/camos/black-topo-2648d21688.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-black-topo/icon.webp",
+      "bytes": 44340,
+      "sha256": "05613be9a7e0095934be9f14b389898f520828b3aaecc3811ee355e12ddbae73"
+    },
+    {
+      "local": "/images/camos/brown-1b6b154059.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/b7ee0a7c-3c27-47c1-877b-987a7e7a6901/icon.webp",
+      "bytes": 1036,
+      "sha256": "5d6048a720715f7f56d33300b1658e6f583745e3e113291a5dd0110d9e7176b0"
+    },
+    {
+      "local": "/images/weapons/jokr-thumb-3445dd2ab8.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/3b29c8f4-951a-41e2-b314-7f2a6d82e2f3/thumbnail.webp?v=20261023",
+      "bytes": 23452,
+      "sha256": "d905d572d88589950fa8918ff235019a12cd21490be6d0a1a243fb8634aec165"
+    },
+    {
+      "local": "/images/weapons/jokr-50f3872ee8.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/3b29c8f4-951a-41e2-b314-7f2a6d82e2f3/image.webp?v=20261023",
+      "bytes": 72292,
+      "sha256": "7f3836e837ab1160fbe6553f033779f7c34db73a89bda281439d9202202f9aa2"
+    },
+    {
+      "local": "/images/camos/thicket-b68011f923.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-thicket/icon.webp",
+      "bytes": 60768,
+      "sha256": "1a1bd6a17725f9474a63498ce1f24fd6a1c2c606c902abd6c6a9a810c3c262bd"
+    },
+    {
+      "local": "/images/camos/tectonic-be7a29243a.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-tectonic/icon.webp",
+      "bytes": 40222,
+      "sha256": "1cde451befa46351018f37a14bb595aeb2735da31d77a363e8f0e37acc8242e9"
+    },
+    {
+      "local": "/images/camos/blue-tiger-47d902e9b6.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-blue-tiger/icon.webp",
+      "bytes": 43260,
+      "sha256": "b779a178153f919813e7910f3369496c3e8b4fe7f7052e9b47e68145277dbfdc"
+    },
+    {
+      "local": "/images/weapons/kastov-762-thumb-c5e42290b7.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/ed779646-6980-4849-af04-f6c0f5e7b1c7/thumbnail.webp?v=20261023",
+      "bytes": 16502,
+      "sha256": "3e3d60fb35ea0fcdb60c266fc1a50336914d8f6891b831599e36f48080bc7287"
+    },
+    {
+      "local": "/images/weapons/kastov-762-5a5ec026c1.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/ed779646-6980-4849-af04-f6c0f5e7b1c7/image.webp?v=20261023",
+      "bytes": 48026,
+      "sha256": "257df2b70adff902de2e5f47cdcf780b2266246f23780ce5bddafbaab0319485"
+    },
+    {
+      "local": "/images/camos/samnim-071c499eaa.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-samnim/icon.webp",
+      "bytes": 34960,
+      "sha256": "cc91eaf184261c5392bf7afa9911d15d62f21eae660411bbe473b55a01f5907e"
+    },
+    {
+      "local": "/images/camos/raster-aux-b0d9fcca54.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-raster-aux/icon.webp",
+      "bytes": 54960,
+      "sha256": "5611b49e68e0eda8d5ba8acbae0552e9d638c9973bc745f368ba7f19547a297e"
+    },
+    {
+      "local": "/images/camos/yellow-572ac948a6.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camov2/158/image.webp",
+      "bytes": 550,
+      "sha256": "de70b833a044ddd8afc256a0fac6ea1fd9cfc307d803e47177833b28428e071d"
+    },
+    {
+      "local": "/images/weapons/kg-7-vulcan-thumb-24463db86a.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/e432da71-b9a8-4775-aa42-acfc42c9251c/thumbnail.webp?v=20261023",
+      "bytes": 15910,
+      "sha256": "1825ed6c48b73b74449e5ee7451c194fb579ec5fe878dfcf6d74d3ed4f8ac490"
+    },
+    {
+      "local": "/images/weapons/kg-7-vulcan-d669a38d46.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/e432da71-b9a8-4775-aa42-acfc42c9251c/image.webp?v=20261023",
+      "bytes": 44344,
+      "sha256": "3314da009f79a55e78d615a95c9265c9dea1a11f11af14a9690922f93bc2aa98"
+    },
+    {
+      "local": "/images/camos/treeline-0b51988b47.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-treeline/icon.webp",
+      "bytes": 45794,
+      "sha256": "1ff1003f5c414613410fc04b2bc63f81863c163dab500e5f3bbd4c6edbee809b"
+    },
+    {
+      "local": "/images/camos/spidersilk-885230e600.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-spidersilk/icon.webp",
+      "bytes": 50008,
+      "sha256": "143d6743f72aecf9b93e173460c89822da8fda77e71def72044ec1a5d4816e80"
+    },
+    {
+      "local": "/images/camos/tension-c9035454bf.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-tension/icon.webp",
+      "bytes": 77436,
+      "sha256": "0ef3909f068723040cbf416b25ecda1da3a5bf7d773c10befeb0e14cf76ed421"
+    },
+    {
+      "local": "/images/weapons/krait-p68-thumb-c8a7be0668.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/db36c5ef-6ff8-49ec-b31f-dff2bc5937d0/thumbnail.webp?v=20261023",
+      "bytes": 41468,
+      "sha256": "3ca2f804317d5838901daaf84efc5d0a2bb6ca8794e28d904cfee4cebf738561"
+    },
+    {
+      "local": "/images/weapons/krait-p68-6305bc7cba.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/db36c5ef-6ff8-49ec-b31f-dff2bc5937d0/image.webp?v=20261023",
+      "bytes": 133786,
+      "sha256": "b6a443a884ad88659e93209e889d3869fe0c9c4a7020b87b5ae34ca39e874867"
+    },
+    {
+      "local": "/images/camos/off-grid-addcad9b25.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-off-grid/icon.webp",
+      "bytes": 36360,
+      "sha256": "3caf30fe22d76ff82abcca08ce7a95f1bb8f728d5d5fe39ed4d77f5f363a54c3"
+    },
+    {
+      "local": "/images/camos/urban-flamingo-19e70a06cf.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-urban-flamingo/icon.webp",
+      "bytes": 44158,
+      "sha256": "f0dd604a5ca1c4ed193a52a3d6e563d92939eacde69e0fb45173c06c73364e5e"
+    },
+    {
+      "local": "/images/camos/smokescreen-060ef28f8f.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-smokescreen/icon.webp",
+      "bytes": 43338,
+      "sha256": "799e1f1e6d90d0f8c6158054a36ff039f0186852d538f9e1bab386ffb6354bcd"
+    },
+    {
+      "local": "/images/weapons/m4-thumb-c3197a6a4d.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/w-m4/thumbnail.webp?v=20261023",
+      "bytes": 18798,
+      "sha256": "4b66f787775a99de107a1de04ba23297041ab06a5a5c0d60a2f328e060d9b689"
+    },
+    {
+      "local": "/images/weapons/m4-e00c2a1e7f.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/w-m4/image.webp?v=20261023",
+      "bytes": 50936,
+      "sha256": "eeadc6214da67bd76457effa8c7b9939880a7f0e17a1a1ad26195e3c50a288d0"
+    },
+    {
+      "local": "/images/camos/myriad-db8c685f13.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-myriad/icon.webp",
+      "bytes": 45710,
+      "sha256": "f0d6e981ad0ca78c96494683afe9f22bea0810a1b06472337d4f735d94c175b6"
+    },
+    {
+      "local": "/images/camos/green-46d5b12c4f.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/747f459b-a437-40e3-b0f5-2215018e3660/icon.webp",
+      "bytes": 1036,
+      "sha256": "88e0ca4383bf53f91216280f7689f1a295977c0142b0aebe5f039123654140b2"
+    },
+    {
+      "local": "/images/camos/night-ops-e2f92fbe04.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-night-ops/icon.webp",
+      "bytes": 55188,
+      "sha256": "92284eae0232fb321f7ce4a08f32d1411388c89aaabe81f8d18ddcfdb77ee466"
+    },
+    {
+      "local": "/images/weapons/mar-9-thumb-243cf716cf.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/859297fd-0a79-48f1-8379-6becb48403c2/thumbnail.webp?v=20261023",
+      "bytes": 15092,
+      "sha256": "c71a0aca053bd8a0ec26b798da569818860601cb4e7c5de303f209dcd2743699"
+    },
+    {
+      "local": "/images/weapons/mar-9-7202f94024.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/859297fd-0a79-48f1-8379-6becb48403c2/image.webp?v=20261023",
+      "bytes": 36324,
+      "sha256": "efe18b5226d6eda119d5363aa85b1209282bcfff6b9430e9db59b772f49805e4"
+    },
+    {
+      "local": "/images/camos/mangrove-b5a7f5d99c.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-mangrove/icon.webp",
+      "bytes": 29572,
+      "sha256": "9fbcf47f7f2763689b906e1ce34cab1f9e52f88bfb70533ff147b7b4c00b3855"
+    },
+    {
+      "local": "/images/camos/fungal-grid-b6ead490fe.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-fungal-grid/icon.webp",
+      "bytes": 34806,
+      "sha256": "0e8d8bb1afafb514a39609adeb1c17566795fc7d73066152b4a2a9b395e42ccf"
+    },
+    {
+      "local": "/images/camos/white-0fbb24134f.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camov2/156/image.webp",
+      "bytes": 526,
+      "sha256": "72976d8a202ffaf5cb05adf1ce1839b9ecac1f37988a280c3d23d75ac61aaa18"
+    },
+    {
+      "local": "/images/weapons/moisin-nagant-thumb-d16893911b.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/5604e2b7-0da3-4ca2-bec5-292b58131641/thumbnail.webp?v=20261023",
+      "bytes": 9248,
+      "sha256": "1bc89d3f53701edb914f0ec8248e758925c1a26d6e07016c71a1efa800b0e50d"
+    },
+    {
+      "local": "/images/weapons/moisin-nagant-4ecfd99244.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/5604e2b7-0da3-4ca2-bec5-292b58131641/image.webp?v=20261023",
+      "bytes": 24132,
+      "sha256": "cd74a624e97cbd33f41264993bbb9f9b3437380693279a69dc65b18570fef143"
+    },
+    {
+      "local": "/images/camos/ice-sheer-621eb1868e.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-ice-sheer/icon.webp",
+      "bytes": 39152,
+      "sha256": "2fce402aef0358f55f8d6fd923b4c04d97353abb5f33140b07474ae0142d6da1"
+    },
+    {
+      "local": "/images/camos/fractal-snow-a964be7c1c.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-fractal-snow/icon.webp",
+      "bytes": 27528,
+      "sha256": "239edcb7bb375e8f17916ef75c122596dfc451313688fb36f3bc01f6eb343a7c"
+    },
+    {
+      "local": "/images/camos/sticker-shock-ba059be8ec.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-sticker-shock/icon.webp",
+      "bytes": 179850,
+      "sha256": "5c217bd84af8d7897a1d53bac8786367be6e12df523820451632658be47fab67"
+    },
+    {
+      "local": "/images/weapons/mojave-357-thumb-af95ab0e33.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/f4deee2c-459e-4265-973b-3455ff46b7df/thumbnail.webp?v=20261023",
+      "bytes": 14738,
+      "sha256": "3085d6e3a09fbebf469893382d1a9200665f12e1fc845030b31dfa23f5f0cde2"
+    },
+    {
+      "local": "/images/weapons/mojave-357-328d9d3827.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/f4deee2c-459e-4265-973b-3455ff46b7df/image.webp?v=20261023",
+      "bytes": 43084,
+      "sha256": "86da3854d38fb6b8f94904dd0be1b99b2c6542b31174d9cd897617b2b1c227cd"
+    },
+    {
+      "local": "/images/camos/miami-ec3e0bf59d.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-miami/icon.webp",
+      "bytes": 26204,
+      "sha256": "6d54ecb4232eea107e61190f86fbcdc3b7b14dc9ef5474393934f5f15542279c"
+    },
+    {
+      "local": "/images/camos/wallpaper-6adb8f6607.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camov2/155/image.webp",
+      "bytes": 55686,
+      "sha256": "98e90b57fc631f1967a195778b5adc6df4b981e45dbc93045f1d7194624c47c2"
+    },
+    {
+      "local": "/images/camos/garland-1635da47b4.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/37ec40c8-c70c-465c-94fc-f693a7ee9c0c/icon.webp",
+      "bytes": 1022,
+      "sha256": "50768ac5e9c055e956021463543cf81d16cd39a2f309b3650d2d2ca52d4be9d8"
+    },
+    {
+      "local": "/images/weapons/oden-thumb-88956eb126.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/482a23bf-3215-4343-b560-fda6025a5a1d/thumbnail.webp?v=20261023",
+      "bytes": 19730,
+      "sha256": "e868908c278e9404a216deda5f0dc22e57784ee21d571709e96102a4bff6b870"
+    },
+    {
+      "local": "/images/weapons/oden-86f1755ec6.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/482a23bf-3215-4343-b560-fda6025a5a1d/image.webp?v=20261023",
+      "bytes": 59384,
+      "sha256": "08ecfaee8f41978d490ef648fe1a08fc78259a6b797b768951568ebf9b745655"
+    },
+    {
+      "local": "/images/camos/dark-moss-d1530a06c4.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-dark-moss/icon.webp",
+      "bytes": 78248,
+      "sha256": "018d803f5e6ce7bb114cb8e3b223ba3faeeafc90a31d77dc79422a937726bf0a"
+    },
+    {
+      "local": "/images/camos/shale-b2ed324d50.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-shale/icon.webp",
+      "bytes": 50208,
+      "sha256": "ddd40799318dafcfb5274216036b09e8cb441b1d17620378dd46bd7315f7fed0"
+    },
+    {
+      "local": "/images/camos/hot-rod-fde641e73f.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-hot-rod/icon.webp",
+      "bytes": 54704,
+      "sha256": "b922d1f79b1301e75729791140339beec50d212a4a03ebeb405292f7f5eaf613"
+    },
+    {
+      "local": "/images/weapons/oris-8-6-thumb-b319646eba.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/329f312c-396c-4095-a864-696d147fe2ae/thumbnail.webp?v=20261023",
+      "bytes": 16280,
+      "sha256": "52f77313d532ea9ed9ea409d43e5ff085a396d955d3c76404e31fde248f578c4"
+    },
+    {
+      "local": "/images/weapons/oris-8-6-3aa50c1283.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/329f312c-396c-4095-a864-696d147fe2ae/image.webp?v=20261023",
+      "bytes": 39266,
+      "sha256": "b46d5554b5ad22306ec1cce79bfecf057de5200120f9c30cc18ed05b137670f7"
+    },
+    {
+      "local": "/images/camos/hibiscus-d1beee6f42.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-hibiscus/icon.webp",
+      "bytes": 71198,
+      "sha256": "20e2ac6220b2f08ca221e347b41dc15a21df3bc259326f0e8fc33ba8bd4a29b6"
+    },
+    {
+      "local": "/images/camos/fire-topo-f1b6cca93b.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-fire-topo/icon.webp",
+      "bytes": 71230,
+      "sha256": "7dbd7bb8af642de7e3405383357b02720a0d04145785b3a423012483d88761be"
+    },
+    {
+      "local": "/images/camos/deep-space-f053b955d9.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-deep-space/icon.webp",
+      "bytes": 53996,
+      "sha256": "a5483eb4b148b1df1cb518e94a9f1f08f48e07e4490cbe6474924f425162036e"
+    },
+    {
+      "local": "/images/weapons/patriot-xmr-thumb-a2de38cfce.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/30ce4cee-89d6-4e0a-aaef-0a5b93e69893/thumbnail.webp?v=20261023",
+      "bytes": 16650,
+      "sha256": "1d73cd03fecf83f2c3549c1d6389ccdc9ec19dbb7fd2a6c3c925838a2fc63d4a"
+    },
+    {
+      "local": "/images/weapons/patriot-xmr-d6d6b57263.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/30ce4cee-89d6-4e0a-aaef-0a5b93e69893/image.webp?v=20261023",
+      "bytes": 43850,
+      "sha256": "2e5f55ef1a629c0124811ab55064c9736818a0ebeb6b4ca8d3ec2aae9515cfb8"
+    },
+    {
+      "local": "/images/camos/dune-sea-e911048c81.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-dune-sea/icon.webp",
+      "bytes": 30598,
+      "sha256": "b960b268986e12a83875555e15aa225b6ab1dc09485bbdd40976bccda82df679"
+    },
+    {
+      "local": "/images/camos/scorch-8f6e335b36.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-scorch/icon.webp",
+      "bytes": 88680,
+      "sha256": "c8901a8ab434e28bf3bbd9d523fb954faf3904b1cc1bb4c727775fa59392989c"
+    },
+    {
+      "local": "/images/camos/disperse-31164d256b.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-disperse/icon.webp",
+      "bytes": 11798,
+      "sha256": "2d5a7ed80a13da7e9dc4d8133b01dd14ecb9e1cba129960f095122023479dd40"
+    },
+    {
+      "local": "/images/weapons/pila-thumb-d588258e67.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/52a79d8b-acfa-489b-a79f-7825402d02f8/thumbnail.webp?v=20261023",
+      "bytes": 12260,
+      "sha256": "147548f6c7e5cdef368e573038c9bbf4a101e1f5b72771141e6fed020839315c"
+    },
+    {
+      "local": "/images/weapons/pila-4277513ac6.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/52a79d8b-acfa-489b-a79f-7825402d02f8/image.webp?v=20261023",
+      "bytes": 37230,
+      "sha256": "a5e2a4756889a5e7cbad14deec3ef84e083b8c556ae81e76ade15696ea3cb306"
+    },
+    {
+      "local": "/images/camos/frontier-ebd8ebda1b.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-frontier/icon.webp",
+      "bytes": 33306,
+      "sha256": "f63a83df3d8891d8289790bc5271cb8342922f87fdde60d339ef849bfa7f6912"
+    },
+    {
+      "local": "/images/camos/sandwash-74e78f1971.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-sandwash/icon.webp",
+      "bytes": 75120,
+      "sha256": "8322a17a2002da73de3615bc83110703840a6f6855c7e5a00275b087dea87874"
+    },
+    {
+      "local": "/images/camos/digital-fall-459cf4f743.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-digital-fall/icon.webp",
+      "bytes": 47952,
+      "sha256": "0240e1a38e9d7167faddc4be2a60dea1f77ddd1c1d25338aa41d3c210366a8f6"
+    },
+    {
+      "local": "/images/weapons/pm-40-anvil-thumb-e83538c210.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/bf612e6e-e6cb-4c11-a076-14c838cddbdb/thumbnail.webp?v=20261023",
+      "bytes": 17458,
+      "sha256": "503218304a22d2dfd9b96400d4b9e1f5c9e18ba93d1e4e43f905dba31c083020"
+    },
+    {
+      "local": "/images/weapons/pm-40-anvil-94f388487f.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/bf612e6e-e6cb-4c11-a076-14c838cddbdb/image.webp?v=20261023",
+      "bytes": 47374,
+      "sha256": "ab554dca42b033fb372782165f7649745484ccd2d7eac0ac38cdb6d1100a6176"
+    },
+    {
+      "local": "/images/camos/night-snow-e5102ad8b8.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-night-snow/icon.webp",
+      "bytes": 25638,
+      "sha256": "681d76fc3fa9c64f52e54c5fffe823f46d85c8e9fd2e541075bbb584b558f10b"
+    },
+    {
+      "local": "/images/camos/recursive-769b0130ce.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-recursive/icon.webp",
+      "bytes": 47176,
+      "sha256": "96c14279ae2df4706a53d2985be2bb75820dc7ad090b8187730e32535f9a2185"
+    },
+    {
+      "local": "/images/camos/urban-standard-18a4c5e5a6.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-urban-standard/icon.webp",
+      "bytes": 63696,
+      "sha256": "e997976ac91f531ad169bad35b9f670035262e8dc28d77debadf80e8518c20ef"
+    },
+    {
+      "local": "/images/weapons/ppsh-41-thumb-51d0abe422.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/92f45fc1-6068-435f-98ea-dd295bc4fb08/thumbnail.webp?v=20261023",
+      "bytes": 13380,
+      "sha256": "6fb94ec42fe5f7aea3cee6fd122c63bba3c669803048e1790d890919acf2e11e"
+    },
+    {
+      "local": "/images/weapons/ppsh-41-936b671f1e.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/92f45fc1-6068-435f-98ea-dd295bc4fb08/image.webp?v=20261023",
+      "bytes": 36292,
+      "sha256": "634134827ffd4bd7a517ed700ed8fb73295d89c9434b0daf1a3ead8caa3d2631"
+    },
+    {
+      "local": "/images/camos/blackwell-b95a09ea68.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-blackwell/icon.webp",
+      "bytes": 56098,
+      "sha256": "7ecfd6046a0ad64845d6d157bbdd84902612df7eb933c9dbecbb77c7f2cb97b1"
+    },
+    {
+      "local": "/images/camos/iron-27040e9675.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/865ecb4a-49f1-48ed-b1cb-0c67a30bce4f/icon.webp",
+      "bytes": 1020,
+      "sha256": "928cb39b6b532c6abb1fe41a2b97fd8ab3c335256afa4631cdcf5d4c6c9e365b"
+    },
+    {
+      "local": "/images/camos/currents-b5a8700eab.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-currents/icon.webp",
+      "bytes": 56592,
+      "sha256": "ca3036e02dd8682aa3366400f6fa492326cd17fe6240d771ce896e5d5815cac4"
+    },
+    {
+      "local": "/images/weapons/rezi-12-thumb-542a8d0229.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/ea2fa5d5-af16-4fb3-899f-91e795c9fb9b/thumbnail.webp?v=20261023",
+      "bytes": 9296,
+      "sha256": "299be20bdd36cc5772f98ef7293c607206af8af6317832eff27da3f7e151fee4"
+    },
+    {
+      "local": "/images/weapons/rezi-12-a6a5c35c35.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/ea2fa5d5-af16-4fb3-899f-91e795c9fb9b/image.webp?v=20261023",
+      "bytes": 23814,
+      "sha256": "fa46f461906c3ffe1646b33365b98aba946457b3b85609467ce655d5d830d864"
+    },
+    {
+      "local": "/images/camos/struck-oil-7a7e433e8a.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-struck-oil/icon.webp",
+      "bytes": 49048,
+      "sha256": "a33b0a385206b97558ed96a606d4d098972a76e4662764589877fdd3f34fab9c"
+    },
+    {
+      "local": "/images/camos/brushstroke-48a703bfd7.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-brushstroke/icon.webp",
+      "bytes": 39562,
+      "sha256": "d653a722501c233f6ea0e5f09e2f1a6d4b47e64b4aeaae1c25a6b06f1ac53580"
+    },
+    {
+      "local": "/images/camos/white-pine-3753f12144.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-white-pine/icon.webp",
+      "bytes": 54282,
+      "sha256": "2777c896459e8716a093ac8ec4a81eec4b87db378a1d4fa7d6a9baadb1ce683e"
+    },
+    {
+      "local": "/images/weapons/rpg-8-thumb-b3cdac55f2.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/6e446bbb-3526-4fda-bfbd-36fad95d3da2/thumbnail.webp?v=20261023",
+      "bytes": 12404,
+      "sha256": "e6181c8cf87c41a3526479b652d8ce4bf32973eaa7ca487e1caf0dc582948f23"
+    },
+    {
+      "local": "/images/weapons/rpg-8-b92f754c98.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/6e446bbb-3526-4fda-bfbd-36fad95d3da2/image.webp?v=20261023",
+      "bytes": 30006,
+      "sha256": "fc5d3b1db97c3855b9139cfac780cf79c02d09aa213126acc495be35d90239c1"
+    },
+    {
+      "local": "/images/camos/digi-bark-39a4d07261.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-digi-bark/icon.webp",
+      "bytes": 55686,
+      "sha256": "9ece76a1bb686ff01cc479d922e6a70dacbc990a74598c705b611560fa645e92"
+    },
+    {
+      "local": "/images/camos/stone-bits-d939e5d2ee.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-stone-bits/icon.webp",
+      "bytes": 13108,
+      "sha256": "75379ccc68529024ae07113a353aeae96bcdf24319287378c9a4402143ea31bb"
+    },
+    {
+      "local": "/images/camos/bubblegum-ops-a946c32386.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-bubblegum-ops/icon.webp",
+      "bytes": 33846,
+      "sha256": "29da236e7785ac66e0ed370dc92e2e0cd2d80cdad4925a2e609cb22682b29826"
+    },
+    {
+      "local": "/images/weapons/sang-9mm-thumb-14ea3b8bc4.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/w-sang-9mm/thumbnail.webp?v=20261023",
+      "bytes": 14608,
+      "sha256": "ebf7c01613af283d072ffcf41caf455c5821065c8db28123c24968721169e068"
+    },
+    {
+      "local": "/images/weapons/sang-9mm-c04188cffa.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/w-sang-9mm/image.webp?v=20261023",
+      "bytes": 47700,
+      "sha256": "37c836e5d216e7288dd4899c8218bdb0a98969921c826967c85ac27b770d1c9c"
+    },
+    {
+      "local": "/images/camos/autumn-bebd3c45f2.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-autumn/icon.webp",
+      "bytes": 49948,
+      "sha256": "38d29b4de4ecafeebde54c57bf09cddb76ff3eef6c6488212117ef8885faba53"
+    },
+    {
+      "local": "/images/camos/snakeskin-b4d9bee66b.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-snakeskin/icon.webp",
+      "bytes": 48086,
+      "sha256": "e23676a64e633d3e4fba45949b3ce1990f404604dbcaa2e472bc07a54edd5dc0"
+    },
+    {
+      "local": "/images/camos/space-time-98a2f7d597.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-space-time/icon.webp",
+      "bytes": 64344,
+      "sha256": "b89319e04a892b36f2c0fc526484bb3bc3af8a54b33d3ad16f89ed4732c944b4"
+    },
+    {
+      "local": "/images/weapons/signal-50-thumb-19ffa8a9da.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/20f45bee-91cf-4974-a329-40fb77b84ecf/thumbnail.webp?v=20261023",
+      "bytes": 18034,
+      "sha256": "5e83eadbdcc5f48c3e7fe31b61997cec1393164e590783e8878de4f196a8900c"
+    },
+    {
+      "local": "/images/weapons/signal-50-3d709cb2d9.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/20f45bee-91cf-4974-a329-40fb77b84ecf/image.webp?v=20261023",
+      "bytes": 49300,
+      "sha256": "26df8b43204fc0377ffb3fc5683d50f98661ca7c93aee155837913b52dbb22ec"
+    },
+    {
+      "local": "/images/camos/anaconda-a2df2ee53d.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-anaconda/icon.webp",
+      "bytes": 46532,
+      "sha256": "57c719f097ee8d75f0c062a70d54fa76643ac1b09dbb55dd6c13d722579eed57"
+    },
+    {
+      "local": "/images/camos/ripplewave-fc9ffd1bd6.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-ripplewave/icon.webp",
+      "bytes": 51238,
+      "sha256": "5a9b0bfc9eb1f9e0710894004248199cb02737d39e558155d200680643bf6c5f"
+    },
+    {
+      "local": "/images/camos/sunburn-9827896d63.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-sunburn/icon.webp",
+      "bytes": 68684,
+      "sha256": "b7a024fdf7af915aba309982dc0bcea7ad9a8da15e1468d684a8084f2fd9abc5"
+    },
+    {
+      "local": "/images/weapons/type-73-thumb-4a73ad62f1.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/3effe622-b95c-4001-9cbb-c0f2e32840ac/thumbnail.webp?v=20261023",
+      "bytes": 17488,
+      "sha256": "39ed198290c8536b0695afefa5fa9719e3176e63e7711096461e9062ad5e3c9e"
+    },
+    {
+      "local": "/images/weapons/type-73-5e61e00b50.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/3effe622-b95c-4001-9cbb-c0f2e32840ac/image.webp?v=20261023",
+      "bytes": 46828,
+      "sha256": "10ab7a3302117051ae3da5ba859974751d2b2b0f6f68cf32898e3b7f48d0b153"
+    },
+    {
+      "local": "/images/camos/ash-pine-dd98da730f.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-ash-pine/icon.webp",
+      "bytes": 38330,
+      "sha256": "4de7a9c842f1b177d0c1291501dcb5a0cd56659a4f5659c63b13d535f810c351"
+    },
+    {
+      "local": "/images/camos/mineral-886dfd350f.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-outcrop/icon.webp",
+      "bytes": 89646,
+      "sha256": "2c0ed5414e50cec1e3d806c1d7b3a91ff4cb59e533d88b83d8ddb94c67a05b97"
+    },
+    {
+      "local": "/images/camos/tiger-swipe-88cbdfced2.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-foxtrail/icon.webp",
+      "bytes": 53182,
+      "sha256": "04aa306edee7229fa1b9d4092e1c6e16fc356a3b616a17cd7a6d51fc7600cec7"
+    },
+    {
+      "local": "/images/weapons/vel-46-thumb-644a56c15a.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/0f56c8f5-16c8-4a04-90b8-8b2396b67399/thumbnail.webp?v=20261023",
+      "bytes": 16650,
+      "sha256": "e9fb8cd00ce78fc63c9b4f7a1f4557140f0310379d9d15de00cb034fb6e29b8e"
+    },
+    {
+      "local": "/images/weapons/vel-46-81060c4457.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/0f56c8f5-16c8-4a04-90b8-8b2396b67399/image.webp?v=20261023",
+      "bytes": 50208,
+      "sha256": "80784367c89c4641d4dca2388e57a7e354c357ee40d1202d06ccd9cf24b3fb4a"
+    },
+    {
+      "local": "/images/camos/jungle-shadow-210df895d2.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-jungle-shadow/icon.webp",
+      "bytes": 68374,
+      "sha256": "786149bded78b2bdfcacb077bed9dd164d686b44765cfae1fcb2c1a5b28f18da"
+    },
+    {
+      "local": "/images/camos/ghast-7c1903269f.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-ghast/icon.webp",
+      "bytes": 144160,
+      "sha256": "f46aa7e87defcc98545b7b47af73aa53491e47cea8399d1ae5238a25d52d1405"
+    },
+    {
+      "local": "/images/weapons/warlord-thumb-08b5c88458.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/9de8a28e-2683-4c10-a477-cf8b82e59471/thumbnail.webp?v=20261023",
+      "bytes": 15706,
+      "sha256": "260cb4aa9727dcbc3e6d473bee494b3417a8a476d430902f09c2f2c4b4305b66"
+    },
+    {
+      "local": "/images/weapons/warlord-3eb82bfbe6.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/9de8a28e-2683-4c10-a477-cf8b82e59471/image.webp?v=20261023",
+      "bytes": 44294,
+      "sha256": "c66fc59b83b47e44e50777a6160c199ddebffb28dbff86c9bb7bf728c408f599"
+    },
+    {
+      "local": "/images/camos/redshift-93db82977e.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-redshift/icon.webp",
+      "bytes": 40378,
+      "sha256": "268e01162e07ecbec1c69b7bbdaf7ee45bc87215f5c60138b067b329efbe846f"
+    },
+    {
+      "local": "/images/camos/corrupted-clay-50603c5f10.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-corrupted-clay/icon.webp",
+      "bytes": 35102,
+      "sha256": "6309e6f3be88a048bee35f5308f0d19e6ea6252da7c1fa1f4545dd2d70eed08e"
+    },
+    {
+      "local": "/images/camos/magma-ire-db1097a521.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-magma-ire/icon.webp",
+      "bytes": 71236,
+      "sha256": "3878d5d6198c6a2fbfeb6f5218ae65546bff569bfdbb432fe8598a000b4a2dbe"
+    },
+    {
+      "local": "/images/weapons/wz-55-striga-thumb-02f9259f0b.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/24781b00-15f7-44a2-bb00-4c32d6e92b3d/thumbnail.webp?v=20261023",
+      "bytes": 13430,
+      "sha256": "bed774d8394baf0d8f24ae9d6c581219bf6eb34e6759da993e7bb35d7c3dc66c"
+    },
+    {
+      "local": "/images/weapons/wz-55-striga-03460a4e06.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/24781b00-15f7-44a2-bb00-4c32d6e92b3d/image.webp?v=20261023",
+      "bytes": 41476,
+      "sha256": "38b70b6153b468f0b1b7ee5c509939acb240ecd322773647b52d43938355fc2d"
+    },
+    {
+      "local": "/images/camos/stellation-79be3912fc.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-stellation/icon.webp",
+      "bytes": 39754,
+      "sha256": "ead3626c29b5157e0640ce154dca947b85835dfd78509c903ec3601acf2175c3"
+    },
+    {
+      "local": "/images/camos/rattlesnake-868f2b52f7.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-rattlesnake/icon.webp",
+      "bytes": 58952,
+      "sha256": "c6662c93e58b611bdc80abb2a9154c3a94e0d6de00c6666371e1e134deca6d58"
+    },
+    {
+      "local": "/images/camos/dark-tan-269b394b97.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/147e7130-3b4e-41b4-a9e9-b1f145ecea51/icon.webp",
+      "bytes": 1026,
+      "sha256": "3d51022915e5dea4c75cb1ed5902f1051af71ba6d19cce81bef4526475ededa8"
+    },
+    {
+      "local": "/images/weapons/x-58-nyx-thumb-e616b8f2f1.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/10641f69-b39d-4e01-85da-517b14f8bdc9/thumbnail.webp?v=20261023",
+      "bytes": 14666,
+      "sha256": "f624ffd63dab580831364b9dc5babae367f2407dbc938f2edf9ec519eee7335f"
+    },
+    {
+      "local": "/images/weapons/x-58-nyx-5309d7e92e.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/weapon/10641f69-b39d-4e01-85da-517b14f8bdc9/image.webp?v=20261023",
+      "bytes": 37256,
+      "sha256": "cfe9b60e8449cc9359e2785315a42c4bce43da0baacb0cd80f0d66176e80aa5a"
+    },
+    {
+      "local": "/images/camos/sniper-veil-8a70506ac2.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-sniper-veil/icon.webp",
+      "bytes": 45900,
+      "sha256": "af6e7ec0786e390c71df0b2115723b6499b1a4311dbb85d71f785db5b1a18718"
+    },
+    {
+      "local": "/images/camos/carbonated-a1352450a5.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/camo-carbonated/icon.webp",
+      "bytes": 53666,
+      "sha256": "e726c94840d81270840de418b462026ec614a30a5f1708d5c80a228b73015f49"
+    },
+    {
+      "local": "/images/camos/chiral-9efdb85dbf.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/e76ef1d6-bda3-4967-b26e-2d2348719723/icon.webp",
+      "bytes": 46098,
+      "sha256": "88722e62458fd341990c531044f9dcfcb7661aa83018035622b19feaf3e56400"
+    },
+    {
+      "local": "/images/camos/chiral-preview-ca2912ccf6.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/e76ef1d6-bda3-4967-b26e-2d2348719723/gallery/6a788ff9-ea65-4657-8732-a5f8f935f890-lg.webp",
+      "bytes": 215044,
+      "sha256": "f071b7992c8fc7ee0301391fb03ec8694ebef08d6aa78ae214f92278d329dbfd"
+    },
+    {
+      "local": "/images/camos/ripple-tide-bc9b1fb1f6.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/b921ba57-43e7-4d03-a8d8-5fe3a3d25e71/icon.webp",
+      "bytes": 35982,
+      "sha256": "d76691f8332b45647c3585a253f2c251e8e5881b2c08f4eb8c174c262fbc7eb7"
+    },
+    {
+      "local": "/images/camos/ripple-tide-preview-1963b49390.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/b921ba57-43e7-4d03-a8d8-5fe3a3d25e71/gallery/ec0e7048-31c8-4b95-9138-a9fed807aab7-lg.webp",
+      "bytes": 132410,
+      "sha256": "790aa9b7387aad895bfbcf95c33553429de3a37c7a3fd4f24bffc46361543063"
+    },
+    {
+      "local": "/images/camos/helio-8bbccc17f9.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/f66649d6-fda7-498f-9f8e-a66c233f1368/icon.webp",
+      "bytes": 27566,
+      "sha256": "e703a648e49ad5dbb759ab5d583aeefae9e614eba00cf1bf328faa3a0b3720be"
+    },
+    {
+      "local": "/images/camos/helio-preview-cbd0ed9314.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/f66649d6-fda7-498f-9f8e-a66c233f1368/gallery/81f28d4c-997a-4524-a668-26e5acf9fa44-lg.webp",
+      "bytes": 103544,
+      "sha256": "426e86c05319a5360a0be893f449a13e91d3591f2b8c83a68cb9129959cf78c9"
+    },
+    {
+      "local": "/images/camos/mercurial-drift-b746b87d86.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/79eb7bf2-10de-4d30-b7f1-d05599c606fd/icon.webp",
+      "bytes": 29626,
+      "sha256": "4f1d07ba313b4f4420809219042833b552f0f75037e53db46d2362debd98037c"
+    },
+    {
+      "local": "/images/camos/mercurial-drift-preview-d8cb9d6a46.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/79eb7bf2-10de-4d30-b7f1-d05599c606fd/gallery/c02c5953-d6eb-4f8b-a92b-00c5f85a94a6-lg.webp",
+      "bytes": 132110,
+      "sha256": "b4ad4e93a40ad228c9a8307fa178c5b93f589bb13d9ca80dadd2f4ba01bf6dde"
+    },
+    {
+      "local": "/images/camos/polyatomic-reforged-801b4a96f1.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/f3d522fe-b8f5-441a-b356-89d3a42a3ba3/icon.webp",
+      "bytes": 25192,
+      "sha256": "ab76f108bd75a4751b0d5f8d300b24ffdf1d0661c7e08ed96e81a143ec315de2"
+    },
+    {
+      "local": "/images/camos/polyatomic-reforged-preview-75fdbbd77e.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/f3d522fe-b8f5-441a-b356-89d3a42a3ba3/gallery/eba2d94a-327b-405e-a30e-2a1f2db4444e-lg.webp",
+      "bytes": 148576,
+      "sha256": "e2ab98775f5d83b4320680dad102ea5c5ed2e04acf6325ae679b4a8dc909898a"
+    },
+    {
+      "local": "/images/camos/orion-reforged-c86bcab91e.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/b329e467-a58d-4a95-aba4-5bcd886c7055/icon.webp",
+      "bytes": 31822,
+      "sha256": "5c112e5e5c4c89e74e2e2bff1ea2ae9f4ec40e36459e2a050282ba889e504a2f"
+    },
+    {
+      "local": "/images/camos/orion-reforged-preview-f3fe72ae2e.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/b329e467-a58d-4a95-aba4-5bcd886c7055/gallery/7c52e44c-e250-4fd6-9917-a50336d06b0d-lg.webp",
+      "bytes": 232214,
+      "sha256": "8013d962ec4efc325c6792da3b11efb34b520ea9b7960a8ee1ecc10a4be02e17"
+    },
+    {
+      "local": "/images/camos/parallax-a6bd24f14b.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/3d37bca3-2df3-4726-903b-832dce9bd276/icon.webp",
+      "bytes": 51370,
+      "sha256": "1f522f940d37d0205e4682c84b4c44e857ceb102e216e65af6dea6f483ac37ba"
+    },
+    {
+      "local": "/images/camos/parallax-preview-d3ea82b073.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/3d37bca3-2df3-4726-903b-832dce9bd276/gallery/27371c8f-c6db-4818-95b7-0f9b3215f751-lg.webp",
+      "bytes": 133714,
+      "sha256": "4e8fe65b52ab69c88910b3bec3f2ca4783c2ad817365f95de8b9629aefb9e04e"
+    },
+    {
+      "local": "/images/camos/damascus-reforged-0b9b60c71e.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/3c6d5c9a-75d9-4b02-aee4-d17632ccb945/icon.webp",
+      "bytes": 78002,
+      "sha256": "4e24f0a09225da7ab89f988ba6aafcb08d60d00080c84040f5c0cb0d23ee6e12"
+    },
+    {
+      "local": "/images/camos/damascus-reforged-preview-115e2fe4a5.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/3c6d5c9a-75d9-4b02-aee4-d17632ccb945/gallery/1587b433-c9c7-41c9-83de-5d75cee0bd53-lg.webp",
+      "bytes": 219130,
+      "sha256": "8910baeb930a0e5d65b22e1ecb3cf91945c02735ab36c54246d47bd62a55eb57"
+    },
+    {
+      "local": "/images/camos/empyros-e287984a05.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/f1b45148-2b34-4bf1-8a76-177a587bcd35/icon.webp",
+      "bytes": 38162,
+      "sha256": "d512878f386ff88c0e86614ce300fff7138197e14ee4bdc0592e5e553f08fba5"
+    },
+    {
+      "local": "/images/camos/empyros-preview-ac095a72b2.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/f1b45148-2b34-4bf1-8a76-177a587bcd35/gallery/06e6a89e-1a3e-4916-ada3-86222e838c9e-lg.webp",
+      "bytes": 194688,
+      "sha256": "a4e129df3b70b70abcf961471a30a8d13d20085c219eae3330cb62b8880ad15a"
+    },
+    {
+      "local": "/images/camos/divergence-a86b170e80.webp",
+      "source": "https://api.mw4.gg/api/v2/media/v2/camo/ea78d3dc-6800-41ac-9457-135dad6aed29/icon.webp",
+      "bytes": 28040,
+      "sha256": "d7d7075bdb8c3a456fb6565e75e61348afb209fbb1fb6ae756b2a1317e323f9b"
+    }
+  ]
+}

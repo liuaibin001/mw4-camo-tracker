@@ -1,0 +1,9 @@
+{
+  "retrievedAt": "2026-11-15",
+  "upstreamCatalogVersion": "2026-11-07T16:58:07.317Z",
+  "primaryDataSource": "https://mw4.gg/data/camo-grind.json",
+  "crossCheckPages": ["https://codmunity.gg/camo-tracker", "https://wzhub.gg/camo/mw4mpdmz"],
+  "officialRules": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige",
+  "officialPatchNotes": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+  "policy": "Factual names and conditions from the linked catalogue. Original interface and explanatory text. Game artwork is served locally with public source URLs and checksums in docs/media-sources.json; rights remain with their respective owners. Missing images are labeled. No competitor application code is included. Upstream verified labels are not independent in-game verification. Warzone conditions carrying unverified notes remain community-reported. Class thresholds are not inferred from inventory size."
+}

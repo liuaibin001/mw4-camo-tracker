@@ -1,0 +1,10 @@
+{
+  "source": "https://api.mw4.gg/api/v2/camov2?limit=300",
+  "reviewedAt": "2026-11-15",
+  "note": "Exact named images from the public media catalogue fill missing tracker images. Wallpaper is matched by its displayed name because the tracker incorrectly links its empty camo entry to White. These overrides do not change challenge requirements.",
+  "images": {
+    "kastov-762:special-3": "https://api.mw4.gg/api/v2/media/v2/camov2/158/image.webp",
+    "mar-9:special-3": "https://api.mw4.gg/api/v2/media/v2/camov2/156/image.webp",
+    "mojave-357:special-2": "https://api.mw4.gg/api/v2/media/v2/camov2/155/image.webp"
+  }
+}
